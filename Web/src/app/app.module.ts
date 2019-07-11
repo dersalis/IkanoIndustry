@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { IndexComponent } from './pages/index/index.component';
 import { CareerComponent } from './pages/career/career.component';
 import { InformationClauseComponent } from './pages/information-clause/information-clause.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
     CareerComponent,
-    InformationClauseComponent
+    InformationClauseComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
