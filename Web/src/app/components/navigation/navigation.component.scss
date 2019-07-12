@@ -1,30 +1,37 @@
 @import "../../scss/variables.scss";
+@import "../../scss/button_round.scss";
 
-.btn-round {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  width: 30px;
-  border: 1px solid $line_red_light;
+.inside {
+  // background: blueviolet;
+  width: 24px;
+  height: 24px;
+  border: 1px solid white;
   border-radius: 50%;
-  color: $color_light;
-  margin: 0px 3px;
-  cursor: pointer;
-  transition: border 0.3s, color 0.3s, background 0.3s;
 
-  &:hover {
-    border: 1px solid $line_red_normal;
-    background: transparent;
-    color: $color_normal;
+  &.pl {
+    background: url("../../../assets/pl_flag.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
-  &:active {
-    border: 1px solid $line_red_normal;
-    background: $line_red_normal;
-    color: white;
+
+  &.uk {
+    background: url("../../../assets/uk_flag.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  &.mex {
+    background: url("../../../assets/mex_flag.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
 }
-
 
 .navigation {
   position: relative;
@@ -52,36 +59,15 @@
 
       .lang {
         display: flex;
+        flex-direction: row;
         flex: 1;
+        margin-top: 10px;
       }
 
       .social {
         display: flex;
         flex-direction: row;
         margin-top: 10px;
-
-        // .fb {
-        //   display: flex;
-        //   justify-content: center;
-        //   align-items: center;
-        //   height: 30px;
-        //   width: 30px;
-        //   border: 1px solid $line_red_light;
-        //   border-radius: 50%;
-        //   color: $color_light;
-        //   transition: border 0.3s, color 0.3s, background 0.3s;
-
-        //   &:hover {
-        //     border: 1px solid $line_red_normal;
-        //     background: transparent;
-        //     color: $color_normal;
-        //   }
-        //   &:active {
-        //     border: 1px solid $line_red_normal;
-        //     background: $line_red_normal;
-        //     color: white;
-        //   }
-        // }
       }
     }
 

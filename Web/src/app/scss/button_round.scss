@@ -1,0 +1,47 @@
+@import 'variables.scss';
+
+.btn-round {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border: 1px solid $line_red_light;
+  border-radius: 50%;
+  color: $color_light;
+  margin: 0px 3px;
+  cursor: pointer;
+  transition: border 0.3s, color 0.3s, background 0.3s;
+
+  &::before {
+    position: absolute;
+    content: attr(data-title);
+    bottom: 0px;
+    font-size: 0px;
+    color: transparent;
+    transition: color .3s, font-size .3s, bottom .3s;
+  }
+
+  &:hover {
+    border: 1px solid $line_red_normal;
+    background: transparent;
+    color: $color_normal;
+
+    &::before {
+      bottom: -16px;
+      font-size: 10px;
+      color: $color_light;
+    }
+  }
+
+  &:active {
+    border: 1px solid $line_red_normal;
+    background: $line_red_normal;
+    color: white;
+
+    &::before {
+      color: $color_normal;
+    }
+  }
+}
