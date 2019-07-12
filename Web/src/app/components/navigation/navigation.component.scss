@@ -1,9 +1,35 @@
 @import "../../scss/variables.scss";
 
+.btn-round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border: 1px solid $line_red_light;
+  border-radius: 50%;
+  color: $color_light;
+  margin: 0px 3px;
+  cursor: pointer;
+  transition: border 0.3s, color 0.3s, background 0.3s;
+
+  &:hover {
+    border: 1px solid $line_red_normal;
+    background: transparent;
+    color: $color_normal;
+  }
+  &:active {
+    border: 1px solid $line_red_normal;
+    background: $line_red_normal;
+    color: white;
+  }
+}
+
+
 .navigation {
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   background: white;
   min-height: $header_height_min;
@@ -12,74 +38,123 @@
 
   .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
 
-    .logo {
+    .top {
       display: flex;
-      align-items: center;
-      img {
-        width: 180px;
-        height: auto;
+      flex-direction: row;
+      height: 65px;
+
+      .lang {
+        display: flex;
+        flex: 1;
+      }
+
+      .social {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+
+        // .fb {
+        //   display: flex;
+        //   justify-content: center;
+        //   align-items: center;
+        //   height: 30px;
+        //   width: 30px;
+        //   border: 1px solid $line_red_light;
+        //   border-radius: 50%;
+        //   color: $color_light;
+        //   transition: border 0.3s, color 0.3s, background 0.3s;
+
+        //   &:hover {
+        //     border: 1px solid $line_red_normal;
+        //     background: transparent;
+        //     color: $color_normal;
+        //   }
+        //   &:active {
+        //     border: 1px solid $line_red_normal;
+        //     background: $line_red_normal;
+        //     color: white;
+        //   }
+        // }
       }
     }
-    .menu {
+
+    .bottom {
+      position: relative;
       display: flex;
-      flex: 1;
-      justify-content: center;
-      align-items: flex-end;
+      flex-direction: row;
 
-      ul {
-        margin: 0;
-        padding: 0;
-        margin-bottom: 30px;
+      .logo {
+        display: flex;
+        align-items: center;
+        margin: 10px 0px;
 
-        li {
-          display: inline-block;
+        img {
+          width: auto;
+          height: 40px;
+        }
+      }
 
-          a {
-            color: $color_light;
-            text-decoration: none;
-            position: relative;
-            padding: 5px 12px;
-            cursor: pointer;
-            transition: color 0.3s;
+      .menu {
+        display: flex;
+        flex: 1;
+        justify-content: left;
+        align-items: center;
+        margin-left: 20px;
 
-            &::before {
-              position: absolute;
-              content: "";
-              width: 100%;
-              height: 2px;
-              bottom: 0px;
-              left: 0px;
-              background: transparent;
-              transition: background 0.3s;
-            }
+        ul {
+          margin: 0;
+          padding: 0;
+          // margin-bottom: 30px;
 
-            &:hover {
+          li {
+            display: inline-block;
+            margin: 0 12px;
+
+            a {
+              color: $color_light;
+              text-decoration: none;
+              position: relative;
+              padding: 4px 0px;
+              cursor: pointer;
+              font-size: 16px;
+              font-weight: 700;
+              transition: color 0.3s;
+
               &::before {
-                background: $line_red_light;
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 2px;
+                bottom: 0px;
+                left: 0px;
+                background: transparent;
+                transition: background 0.3s;
               }
-            }
 
-            &.active {
-              color: $color_normal;
+              &:hover {
+                &::before {
+                  background: $line_red_light;
+                }
+              }
 
-              &::before {
-                background: $line_red_normal;
+              &.active {
+                color: $color_normal;
+
+                &::before {
+                  background: $line_red_normal;
+                }
               }
             }
           }
-
-
         }
       }
-    }
-    .social {
     }
   }
 }
