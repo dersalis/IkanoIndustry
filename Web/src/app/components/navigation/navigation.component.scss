@@ -1,75 +1,24 @@
 @import "../../scss/variables.scss";
 @import "../../scss/button_round.scss";
 
-.inside {
-  // background: blueviolet;
-  width: 24px;
-  height: 24px;
-  border: 1px solid white;
-  border-radius: 50%;
-
-  &.pl {
-    background: url("../../../assets/pl_flag.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
-  &.uk {
-    background: url("../../../assets/uk_flag.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
-  &.mex {
-    background: url("../../../assets/mex_flag.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-}
 
 .navigation {
   position: relative;
   display: flex;
   flex-direction: column;
 
-  background: white;
-  min-height: $header_height_min;
+  background: $background_light;
+  min-height: 75px;
   width: 100%;
-  box-shadow: $shadow;
 
   .container {
     display: flex;
     flex-direction: column;
-
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
     padding-left: 15px;
     padding-right: 15px;
-
-    .top {
-      display: flex;
-      flex-direction: row;
-      height: 65px;
-
-      .lang {
-        display: flex;
-        flex-direction: row;
-        flex: 1;
-        margin-top: 10px;
-      }
-
-      .social {
-        display: flex;
-        flex-direction: row;
-        margin-top: 10px;
-      }
-    }
 
     .bottom {
       position: relative;
@@ -146,19 +95,23 @@
 }
 
 @media (min-width: 1200px) {
-  .container {
-    width: 1170px;
+  .navigation {
+    .container {
+      width: 1160px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
+// @media (min-width: 992px) {
+//   .container {
+//     width: 970px;
+//   }
+// }
 
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
+// @media (min-width: 768px) {
+//   .container {
+//     width: 750px;
+//   }
+// }

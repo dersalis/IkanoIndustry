@@ -1,0 +1,33 @@
+@mixin resolution {
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+
+    $global_width: 1170px;
+    $global_margin_left: auto;
+    $global_margin_right: auto;
+  }
+
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+
+    $global_width: 970px;
+    $global_margin_left: auto;
+    $global_margin_right: auto;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+
+    $global_width: 750px;
+    $global_margin_left: auto;
+    $global_margin_right: auto;
+  }
+}
+
+

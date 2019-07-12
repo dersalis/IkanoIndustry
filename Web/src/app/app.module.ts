@@ -7,6 +7,7 @@ import { IndexComponent } from './pages/index/index.component';
 import { CareerComponent } from './pages/career/career.component';
 import { InformationClauseComponent } from './pages/information-clause/information-clause.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { TopPanelComponent } from './components/top-panel/top-panel.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NavigationComponent } from './components/navigation/navigation.componen
     IndexComponent,
     CareerComponent,
     InformationClauseComponent,
-    NavigationComponent
+    NavigationComponent,
+    TopPanelComponent
   ],
   imports: [
     BrowserModule,

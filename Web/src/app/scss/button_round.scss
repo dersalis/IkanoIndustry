@@ -32,6 +32,7 @@
       bottom: -16px;
       font-size: 10px;
       color: $color_light;
+      z-index: 1;
     }
   }
 
@@ -42,6 +43,7 @@
 
     &::before {
       color: $color_normal;
+      z-index: 1;
     }
   }
 }

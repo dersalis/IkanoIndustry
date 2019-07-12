@@ -1,0 +1,57 @@
+@import "../../scss/variables.scss";
+@import "../../scss/resolution.scss";
+
+.section {
+  min-height: 200px;
+  // background: $background_gray;
+
+  &.white {
+    background: $background_light;
+    box-shadow: $shadow;
+    // z-index: 1;
+  }
+
+  // &.gray {
+  //   background: $background_gray;
+  //   z-index: 0;
+  // }
+}
+
+.content {
+  .footer {
+    background: $background_dark;
+    min-height: $footer_height_min;
+    width: 100%;
+  }
+}
+
+.box {
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: blueviolet;
+}
+
+@media (min-width: 1200px) {
+  .box {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  // .testor {
+  //   width: 970px;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  // }
+}
+
+@media (min-width: 768px) {
+  // .testor {
+  //   width: 100%;
+  //   margin-left: 20px;
+  //   margin-right: 20px;
+  // }
+}

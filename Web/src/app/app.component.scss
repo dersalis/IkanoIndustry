@@ -1,16 +1,24 @@
-@import 'scss/variables.scss';
+@import "scss/variables.scss";
 
 .container {
   display: flex;
   flex-direction: column;
 
-  .header {
-    // background: white;
-    // min-height: $header_height_min;
-    // width: 100%;
+  .top_panel {
+    background: $background_light;
+    z-index: 1;
+  }
+
+  .menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: $background_light;
+    box-shadow: $shadow;
   }
   .content {
     flex: 1;
+    background: $background_gray;
   }
   .footer {
     background: $background_dark;

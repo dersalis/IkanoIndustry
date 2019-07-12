@@ -1,0 +1,75 @@
+@import "../../scss/variables.scss";
+@import "../../scss/button_round.scss";
+
+.inside {
+  // background: blueviolet;
+  width: 24px;
+  height: 24px;
+  border: 1px solid white;
+  border-radius: 50%;
+
+  &.pl {
+    background: url("../../../assets/pl_flag.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  &.uk {
+    background: url("../../../assets/uk_flag.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  &.mex {
+    background: url("../../../assets/mex_flag.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}
+
+.top_panel {
+  // background: $background_light;
+  // width: 100%;
+
+  .container {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .top {
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+
+      .lang {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        margin-top: 10px;
+      }
+
+      .social {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .top_panel {
+    .container {
+      width: 1160px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
