@@ -1,0 +1,126 @@
+@import "../../scss/variables.scss";
+
+$color_gray_10: rgb(168, 165, 158);
+$color_gray_60: #4b4b4b;
+
+.footer {
+  background: $background_dark;
+  .box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    // border: 1px solid rgb(80, 43, 80);
+    color: $color_gray_10;
+    font-size: 14px;
+
+    .content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+
+      min-height: 300px;
+
+      .col {
+        // border: 1px solid olive;
+        margin-top: 30px;
+        max-width: 400px;
+
+        .header {
+          color: white;
+          font-size: 16px;
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+
+        .row {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          font-size: 13px;
+          margin: 8px 0px;
+
+          &.header {
+            color: white;
+          }
+
+          i {
+            margin-right: 8px;
+            font-size: 12px;
+          }
+        }
+
+        .fb-page {
+          width: 100%;
+        }
+      }
+    }
+
+    .auth {
+      display: flex;
+      flex-direction: row;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+
+      .separator {
+        margin: 0 10px;
+        color: $color_gray_60;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    .box {
+      width: 1160px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    .box {
+      .content {
+        grid-template-columns: auto auto;
+        .col {
+          min-width: 400px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .footer {
+    .box {
+      .content {
+        grid-template-columns: auto;
+        .col {
+          max-width: 400px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .auth {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        height: 60px;
+
+        .separator {
+          display: none;
+        }
+      }
+    }
+  }
+}

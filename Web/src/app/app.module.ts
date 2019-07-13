@@ -8,6 +8,8 @@ import { CareerComponent } from './pages/career/career.component';
 import { InformationClauseComponent } from './pages/information-clause/information-clause.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { TopPanelComponent } from './components/top-panel/top-panel.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FacebookModule } from 'ngx-facebook';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { TopPanelComponent } from './components/top-panel/top-panel.component';
     CareerComponent,
     InformationClauseComponent,
     NavigationComponent,
-    TopPanelComponent
+    TopPanelComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FacebookModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
