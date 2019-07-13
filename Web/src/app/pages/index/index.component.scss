@@ -41,6 +41,7 @@
         .description {
           font-size: 14px;
           line-break: 1.2;
+          text-align: justify;
           color: #333333;
           margin-top: 30px;
         }
@@ -77,6 +78,7 @@
         .description {
           font-size: 14px;
           line-break: 1.2;
+          text-align: justify;
           color: #333333;
           margin-top: 30px;
         }
@@ -139,6 +141,10 @@
         }
         .right {
           margin: 30px 0 0 0;
+          .header {
+            font-size: 22px;
+            text-align: justify;
+          }
         }
       }
     }
@@ -147,6 +153,10 @@
         flex-direction: column-reverse;
         .left {
           margin: 30px 0 0 0;
+          .header {
+            font-size: 22px;
+            text-align: justify;
+          }
         }
         .right {
           width: 300px;
