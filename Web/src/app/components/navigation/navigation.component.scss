@@ -104,14 +104,21 @@
   }
 }
 
-// @media (min-width: 992px) {
-//   .container {
-//     width: 970px;
-//   }
-// }
-
-// @media (min-width: 768px) {
-//   .container {
-//     width: 750px;
-//   }
-// }
+@media (max-width: 860px) {
+  .navigation {
+    .container {
+      .bottom {
+        .menu {
+          ul {
+            li {
+              display: block;
+              a {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
