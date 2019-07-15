@@ -3,5 +3,11 @@
     "meet": "Poznajmy się",
     "career": "Praca i kariera",
     "information_clausule": "Klauzula informacyjna"
+  },
+  "meetPage": {
+    "quotation": {
+      "title": "Nasza wizja",
+      "content": "Tworzyć możliwości lepszego życia"
+    }
   }
 }
