@@ -10,6 +10,9 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { TopPanelComponent } from './components/top-panel/top-panel.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FacebookModule } from 'ngx-facebook';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 @NgModule({
   declarations: [
@@ -24,9 +27,23 @@ import { FacebookModule } from 'ngx-facebook';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FacebookModule.forRoot()
+    FacebookModule.forRoot(),
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+}
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
