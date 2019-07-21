@@ -9,5 +9,16 @@
       "title": "Our vision",
       "content": "Create opportunities for a better life"
     }
+  },
+  "page_information": {
+    "security_measures": {
+      "title": "Informacje na temat środków bezpieczeństwa i sposobów postępowania na wypadek wystąpienia poważnej awarii na terenie zakładu Ikano Industry Spółka z o.o. w Rogoźnie",
+      "content": "Zobacz w pliku PDF",
+      "button": "Zobacz plik"
+    },
+    "contractors": {
+      "title": "",
+      "content": ""
+    }
   }
 }

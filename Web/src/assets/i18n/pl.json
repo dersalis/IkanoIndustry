@@ -9,5 +9,32 @@
       "title": "Nasza wizja",
       "content": "Tworzyć możliwości lepszego życia"
     }
+  },
+  "page_information": {
+    "security_measures": {
+      "title": "Informacje na temat środków bezpieczeństwa i sposobów postępowania na wypadek wystąpienia poważnej awarii na terenie zakładu Ikano Industry Spółka z o.o. w Rogoźnie",
+      "content": "Zobacz w pliku PDF",
+      "button": "Zobacz plik"
+    },
+    "contractors": {
+      "title": "Kontrahenci",
+      "content": "Niniejsza informacja mówi o tym w jaki sposób przetwarzamy Twoje dane, podane w celu realizacji umowy między nami. Jesteśmy administratorem Twoich danych osobowych i zgodnie z prawem jesteśmy zobowiązani dostarczyć Ci informacji, o tym, dlaczego i w jaki sposób wykorzystujemy Twoje dane oraz o prawach jakie Ci w związku z tym przysługują."
+    },
+    "who_we_are": {
+      "title": "Kim jesteśmy?",
+      "content1": "Jesteśmy Ikano Industry Sp. z o.o. Nasz adres to ul. Magazynowa, 64-610 Rogoźno.",
+      "content2": "Możesz skontaktować się z nami pocztą pod powyższym adresem lub korzystając z niżej podanych danych Inspektora Ochrony Danych."
+    },
+    "iod": {
+      "title": "Inspektor ochrony danych",
+      "content1": "Powołaliśmy Inspektora Ochrony Danych - Natalia Brykczyńska. W kwestiach związanych z ochroną Twoich danych, możesz się z nim kontaktować:",
+      "content2": "Możesz skontaktować się z nami pocztą pod powyższym adresem lub korzystając z niżej podanych danych Inspektora Ochrony Danych.",
+      "content_list1": "pod adresem e-mail:",
+      "content_list2": "pod numerem telefonu 661 614 003",
+      "content_list3": "wypełniając formularz",
+      "content3": "Wiadomość do IOD:",
+      "content4": "Zostaw kontakt do siebie:",
+      "content5": "Klauzula informacyjna:"
+    }
   }
 }

@@ -1,26 +1,84 @@
 <div class="content">
-  <div class="section gray">
-    <div class="box"
-      style="height: 600px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-      <h1>Klauzula informacyjna</h1>
-      <h2 style="color: gray">Strona w przygotowaniu!</h2>
+  <!-- Grafika -->
+  <div class="section section_image">
+  </div>
+
+  <!-- Środki bezpieczeństwa -->
+  <div class="section section_white">
+    <div class="box">
+      <div class="header">
+        {{ 'page_information.security_measures.title' | translate }}
+      </div>
+      <div class="description">
+        <p>
+          {{ 'page_information.security_measures.content' | translate }}
+        </p>
+        <a class="btn" href="../../../assets/files/Instrukcja-postepowania.pdf">
+          {{ 'page_information.security_measures.button' | translate }}
+          <i class="fas fa-download"></i>
+        </a>
+      </div>
     </div>
   </div>
-  <div class="section white">
 
+  <!-- Kontrahenci -->
+  <div class=" section section_gray">
+    <div class="box">
+      <div class="header">
+        {{ 'page_information.contractors.title' | translate }}
+      </div>
+      <div class="description">
+        <p>
+          {{ 'page_information.contractors.content' | translate }}
+        </p>
+      </div>
+    </div>
   </div>
-  <div class="section">
 
+  <!-- Kim jestetśmy? -->
+  <div class=" section section_white">
+    <div class="box">
+      <div class="header">
+        {{ 'page_information.who_we_are.title' | translate }}
+      </div>
+      <div class="description">
+        <p>
+          {{ 'page_information.who_we_are.content1' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.who_we_are.content2' | translate }}
+        </p>
+      </div>
+    </div>
   </div>
-  <div class="section white">
 
-  </div>
-  <div class="section">
+  <!-- Inspektor ochrony danych -->
+  <div class=" section section_gray">
+    <div class="box">
+      <div class="header">
+        {{ 'page_information.iod.title' | translate }}
+      </div>
+      <div class="description">
+        <p>
+          {{ 'page_information.iod.content1' | translate }}
+        </p>
 
-  </div>
-  <div class="section white">
+        <ul>
+          <li>{{ 'page_information.iod.content_list1' | translate }} <a class="link" href="mailto:iod@ikanoindustry.pl">iod@ikanoindustry.pl</a></li>
+          <li>{{ 'page_information.iod.content_list2' | translate }}</li>
+          <li>{{ 'page_information.iod.content_list3' | translate }}</li>
+        </ul>
 
+        <label>{{ 'page_information.iod.content3' | translate }}</label>
+        <textarea name="" id="" cols="30" rows="8"></textarea>
+        <label>{{ 'page_information.iod.content4' | translate }}</label>
+        <input type="text">
+        <p>{{ 'page_information.iod.content5' | translate }}</p>
+      </div>
+    </div>
   </div>
+
+
   <div class="footer">
     <app-footer></app-footer>
   </div>

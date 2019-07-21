@@ -13,6 +13,8 @@ import { FacebookModule } from 'ngx-facebook';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     InformationClauseComponent,
     NavigationComponent,
     TopPanelComponent,
-    FooterComponent
+    FooterComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +40,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
       }
     })
   ],
+  // providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   providers: [],
   bootstrap: [AppComponent]
 })

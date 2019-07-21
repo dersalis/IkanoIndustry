@@ -1,1 +1,78 @@
 @import "../../scss/variables.scss";
+@import "../../scss/button_round.scss";
+@import "../../scss/inputs.scss";
+
+.content {
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      margin: 40px 20px;
+
+      .header {
+        font-size: 30px;
+        color: $line_red_normal;
+        line-height: 1.1;
+      }
+      .description {
+        font-size: 14px;
+        line-break: 1.2;
+        text-align: justify;
+        color: #333333;
+        margin-top: 30px;
+
+        p {
+          margin: 0;
+          margin-bottom: 10px;
+        }
+
+        .btn {
+          margin-left: 0px;
+          margin-top: 10px;
+          i {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+
+    // Sekcja z grafiką
+    &.section_image {
+      height: 405px;
+      background-image: url("../../../assets/page_information.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+
+    // Sekcja biała
+    &.section_white {
+      background: $background_light;
+      box-shadow: $shadow;
+    }
+
+    // Sekcja szara
+    &.section_gray {
+
+    }
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .content {
+    .section {
+      .box {
+        width: 1160px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}

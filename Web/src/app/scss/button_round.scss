@@ -1,4 +1,55 @@
-@import 'variables.scss';
+@import "variables.scss";
+
+.btn {
+  // position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30px;
+  border: 1px solid $line_red_light;
+  color: $color_light;
+  margin: 3px 3px;
+  padding: 0px 10px;
+  cursor: pointer;
+  transition: border 0.3s, color 0.3s, background 0.3s;
+  text-decoration: none;
+  outline: none;
+
+  // &::before {
+  //   position: absolute;
+  //   content: attr(data-title);
+  //   bottom: 0px;
+  //   font-size: 0px;
+  //   color: transparent;
+  //   transition: color .3s, font-size .3s, bottom .3s;
+  //}
+
+  &:hover {
+    border: 1px solid $line_red_normal;
+    background: transparent;
+    color: $color_normal;
+    outline: none;
+
+    // &::before {
+    //   bottom: -16px;
+    //   font-size: 10px;
+    //   color: $color_light;
+    //   z-index: 1;
+    // }
+  }
+
+  &:active {
+    border: 1px solid $line_red_normal;
+    background: $line_red_normal;
+    color: white;
+    outline: none;
+
+    // &::before {
+    //   color: $color_normal;
+    //   z-index: 1;
+    // }
+  }
+}
 
 .btn-round {
   position: relative;
@@ -20,7 +71,7 @@
     bottom: 0px;
     font-size: 0px;
     color: transparent;
-    transition: color .3s, font-size .3s, bottom .3s;
+    transition: color 0.3s, font-size 0.3s, bottom 0.3s;
   }
 
   &:hover {
@@ -45,5 +96,24 @@
       color: $color_normal;
       z-index: 1;
     }
+  }
+}
+
+
+$link_color_normal: #ec0000;
+$link_color_hover: #ffbe00;
+$link_color_active: #777777;
+
+.link {
+  color: $link_color_normal;
+  text-decoration: none;
+  transition: color .3s;
+
+  &:hover {
+    color: $link_color_hover;
+  }
+
+  &:active {
+    color: $link_color_active;
   }
 }
