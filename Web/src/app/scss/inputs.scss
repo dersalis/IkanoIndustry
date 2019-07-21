@@ -4,53 +4,38 @@ $border_color_normal: #777777;
 $border_color_hover: #ec0000;
 $border_color_active: #ffbe00;
 
+@mixin input_common {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid $border_color_normal;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  color: $color_normal;
+  transition: border 0.3s;
+
+  &:hover {
+    border: 1px solid $border_color_hover;
+  }
+  &:focus {
+    outline: none;
+    border: 1px solid $border_color_active;
+    box-shadow: 0px 0px 5px 1px $border_color_active;
+  }
+}
+
 label {
   display: block;
   font-weight: bold;
 }
 
 textarea {
-  display: block;
-  width: 100%;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border: 1px solid $border_color_normal;
-  border-radius: 5px;
-  outline: none;
-  padding: 10px;
-  font-size: 13px;
-  color: $color_normal;
-  transition: border .3s;
-
-  &:hover {
-    border: 1px solid $border_color_hover;
-  }
-  &:focus {
-    outline: none;
-    border: 1px solid $border_color_active;
-    box-shadow: 0px 0px 5px 1px $border_color_active;
-  }
+  @include input_common();
 }
 
 input {
-  display: block;
-  width: 100%;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border: 1px solid $border_color_normal;
-  border-radius: 5px;
-  outline: none;
-  padding: 10px;
-  font-size: 13px;
-  color: $color_normal;
-  transition: border .3s;
-
-  &:hover {
-    border: 1px solid $border_color_hover;
-  }
-  &:focus {
-    outline: none;
-    border: 1px solid $border_color_active;
-    box-shadow: 0px 0px 5px 1px $border_color_active;
-  }
+  @include input_common();
 }

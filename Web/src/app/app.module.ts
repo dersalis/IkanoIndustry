@@ -15,6 +15,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     AppRoutingModule,
     FacebookModule.forRoot(),
     HttpClientModule,
+    FormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

@@ -8,6 +8,9 @@ import { FacebookService, InitParams } from 'ngx-facebook';
 })
 export class InformationClauseComponent implements OnInit {
 
+  public message: string = "";
+  public contact: string = "";
+
   constructor(private fb: FacebookService) {
     let initParams: InitParams = {
       // appId: '1234566778',
@@ -19,6 +22,14 @@ export class InformationClauseComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  public sendMessage(): void {
+    console.log(this.message + ' - ' + this.contact);
+
+    // Wyczyść pola
+    this.message = "";
+    this.contact = "";
   }
 
 }

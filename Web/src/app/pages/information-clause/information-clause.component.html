@@ -64,21 +64,203 @@
         </p>
 
         <ul>
-          <li>{{ 'page_information.iod.content_list1' | translate }} <a class="link" href="mailto:iod@ikanoindustry.pl">iod@ikanoindustry.pl</a></li>
+          <li>{{ 'page_information.iod.content_list1' | translate }} <a class="link"
+              href="mailto:iod@ikanoindustry.pl">iod@ikanoindustry.pl</a></li>
           <li>{{ 'page_information.iod.content_list2' | translate }}</li>
           <li>{{ 'page_information.iod.content_list3' | translate }}</li>
         </ul>
 
         <label>{{ 'page_information.iod.content3' | translate }}</label>
-        <textarea name="" id="" cols="30" rows="8"></textarea>
+        <textarea [(ngModel)]="message" name="message" id="message" cols="30" rows="8"></textarea>
         <label>{{ 'page_information.iod.content4' | translate }}</label>
-        <input type="text">
+        <input [(ngModel)]="contact" name="contact" id="contact" type="text">
         <p>{{ 'page_information.iod.content5' | translate }}</p>
+
+        <ul>
+          <li>{{ 'page_information.iod.content_list4' | translate }}</li>
+          <li>{{ 'page_information.iod.content_list5' | translate }}</li>
+        </ul>
+        <a class="btn" (click)="sendMessage()">
+          {{ 'page_information.iod.button' | translate }}
+          <i class="fas fa-paper-plane"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Po co -->
+  <div class=" section section_white">
+    <div class="box">
+      <div class="header">
+        {{ 'page_information.for_what.title' | translate }}
+      </div>
+      <div class="description">
+        <p>
+          {{ 'page_information.for_what.content1' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.for_what.content2' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.for_what.content3' | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Jak długo -->
+  <div class=" section section_gray">
+    <div class="box">
+      <div class="header">
+        {{ 'page_information.how_long.title' | translate }}
+      </div>
+      <div class="description">
+        <p>
+          {{ 'page_information.how_long.content' | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Komu -->
+  <div class=" section section_white">
+    <div class="box">
+      <div class="header">
+        {{ 'page_information.who.title' | translate }}
+      </div>
+      <div class="description">
+        <p>
+          {{ 'page_information.who.content' | translate }}
+        </p>
+        <ul>
+          <li>{{ 'page_information.who.content_list1' | translate }}</li>
+          <li>{{ 'page_information.who.content_list2' | translate }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Udostępnianie innym -->
+  <div class=" section section_gray">
+    <div class="box">
+      <div class="header">
+        {{ 'page_information.another.title' | translate }}
+      </div>
+      <div class="description">
+        <p>
+          {{ 'page_information.another.content' | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Prawa -->
+  <div class=" section section_white">
+    <div class="box">
+      <div class="header">
+        {{ 'page_information.rights.title' | translate }}
+      </div>
+      <div class="description">
+        <p class="title title_first">
+          {{ 'page_information.rights.header1' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content1' | translate }}
+        </p>
+
+        <p class="title">
+          {{ 'page_information.rights.header2' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content2' | translate }}
+        </p>
+        <ul>
+          <li>{{ 'page_information.rights.content_list2_1' | translate }}</li>
+          <li>{{ 'page_information.rights.content_list2_2' | translate }}</li>
+          <li>{{ 'page_information.rights.content_list2_3' | translate }}</li>
+        </ul>
+
+        <p class="title">
+          {{ 'page_information.rights.header3' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content3' | translate }}
+        </p>
+
+        <p class="title">
+          {{ 'page_information.rights.header4' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content4' | translate }}
+        </p>
+
+        <p class="title">
+          {{ 'page_information.rights.header5' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content5' | translate }}
+        </p>
+        <ul>
+          <li>{{ 'page_information.rights.content_list5_1' | translate }}</li>
+          <li>{{ 'page_information.rights.content_list5_2' | translate }}</li>
+          <li>{{ 'page_information.rights.content_list5_3' | translate }}</li>
+        </ul>
+
+        <p class="title">
+          {{ 'page_information.rights.header6' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content6_1' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content6_2' | translate }}
+        </p>
+
+        <p class="title">
+          {{ 'page_information.rights.header7' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content7_1' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content7_2' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content7_3' | translate }}
+        </p>
+
+        <p class="title">
+          {{ 'page_information.rights.header8' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content8' | translate }}
+        </p>
+
+        <p class="title">
+          {{ 'page_information.rights.header9' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content9_1' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content9_2' | translate }}
+        </p>
+        <p>
+          <b>{{ 'page_information.rights.content9_3' | translate }}</b>
+        </p>
+        <p>
+          {{ 'page_information.rights.content9_4' | translate }}
+        </p>
+        <p>
+          {{ 'page_information.rights.content9_5' | translate }}
+        </p>
+
       </div>
     </div>
   </div>
 
 
+  <!-- Stopka -->
   <div class="footer">
     <app-footer></app-footer>
   </div>
