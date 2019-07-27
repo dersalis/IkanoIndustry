@@ -70,20 +70,35 @@
           <li>{{ 'page_information.iod.content_list3' | translate }}</li>
         </ul>
 
-        <label>{{ 'page_information.iod.content3' | translate }}</label>
-        <textarea [(ngModel)]="message" name="message" id="message" cols="30" rows="8"></textarea>
-        <label>{{ 'page_information.iod.content4' | translate }}</label>
-        <input [(ngModel)]="contact" name="contact" id="contact" type="text">
-        <p>{{ 'page_information.iod.content5' | translate }}</p>
+        <form [formGroup]="messageForm" (ngSubmit)="sendMessage()">
+          <label>{{ 'page_information.iod.content3' | translate }}</label>
+          <textarea name="message" id="message" formControlName="message" cols="30" rows="8"></textarea>
+          <div class="error">
+              <div *ngIf="send && f.message.errors" class="invalid-feedback">
+                  <div *ngIf="f.message.errors.required">Message is required</div>
+              </div>
+          </div>
 
-        <ul>
-          <li>{{ 'page_information.iod.content_list4' | translate }}</li>
-          <li>{{ 'page_information.iod.content_list5' | translate }}</li>
-        </ul>
-        <a class="btn" (click)="sendMessage()">
-          {{ 'page_information.iod.button' | translate }}
-          <i class="fas fa-paper-plane"></i>
-        </a>
+          <label>{{ 'page_information.iod.content4' | translate }}</label>
+          <input name="contact" id="contact" formControlName="contact" type="text">
+          <div class="error">
+              <div *ngIf="send && f.contact.errors" class="invalid-feedback">
+                  <div *ngIf="f.contact.errors.required">Email is required</div>
+                  <div *ngIf="f.contact.errors.email">Email must be a valid email address</div>
+              </div>
+          </div>
+
+          <p>{{ 'page_information.iod.content5' | translate }}</p>
+
+          <ul>
+            <li>{{ 'page_information.iod.content_list4' | translate }}</li>
+            <li>{{ 'page_information.iod.content_list5' | translate }}</li>
+          </ul>
+          <button class="btn">
+            {{ 'page_information.iod.button' | translate }}
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
       </div>
     </div>
   </div>

@@ -56,8 +56,81 @@
       "button": "Zobacz plik"
     },
     "contractors": {
-      "title": "",
-      "content": ""
+      "title": "Kontrahenci",
+      "content": "Niniejsza informacja mówi o tym w jaki sposób przetwarzamy Twoje dane, podane w celu realizacji umowy między nami. Jesteśmy administratorem Twoich danych osobowych i zgodnie z prawem jesteśmy zobowiązani dostarczyć Ci informacji, o tym, dlaczego i w jaki sposób wykorzystujemy Twoje dane oraz o prawach jakie Ci w związku z tym przysługują."
+    },
+    "who_we_are": {
+      "title": "Kim jesteśmy?",
+      "content1": "Jesteśmy Ikano Industry Sp. z o.o. Nasz adres to ul. Magazynowa, 64-610 Rogoźno.",
+      "content2": "Możesz skontaktować się z nami pocztą pod powyższym adresem lub korzystając z niżej podanych danych Inspektora Ochrony Danych."
+    },
+    "iod": {
+      "title": "Inspektor ochrony danych",
+      "content1": "Powołaliśmy Inspektora Ochrony Danych - Natalia Brykczyńska. W kwestiach związanych z ochroną Twoich danych, możesz się z nim kontaktować:",
+      "content2": "Możesz skontaktować się z nami pocztą pod powyższym adresem lub korzystając z niżej podanych danych Inspektora Ochrony Danych.",
+      "content_list1": "pod adresem e-mail:",
+      "content_list2": "pod numerem telefonu 661 614 003",
+      "content_list3": "wypełniając formularz",
+      "content3": "Wiadomość do IOD:",
+      "content4": "Zostaw kontakt do siebie:",
+      "content5": "Klauzula informacyjna:",
+      "content_list4": "W przypadku zgłoszenia naruszenia ochrony danych osobowych, skontaktujemy się z podmiotem, którego naruszenie dotyczy, w ciągu 72h. Informujemy również, że czas ten może ulec wydłużeniu w uzasadnionych przypadkach",
+      "content_list5": "W przypadku otrzymania żądania informacji o przetwarzaniu danych osobowych, skontaktujemy się z Toba w ciągu 30 dni kalendarzowych",
+      "button": "Wyślij formularz"
+    },
+    "for_what": {
+      "title": "Po co i na jakiej podstawie przetwarzamy Twoje dane osobowe?",
+      "content1": "Twoje dane osobowe przetwarzamy, aby móc zawrzeć i prawidłowo realizować umowę między Tobą, a nami (art. 6 ust. 1 litera b RODO).",
+      "content2": "Informacje te są wykorzystywane również dla naszego prawnie uzasadnionego interesu (artykuł 6 ustęp 1 litera f ROO), polegającego na ewentualnym ustaleniu, dochodzeniu lub obrony przed roszczeniami.",
+      "content3": "Po zważeniu Twoich interesów, praw i wolności oraz naszego interesu oceniliśmy, że przetwarzanie Twoich danych dla naszego prawnie uzasadnionego interesu, nie będzie ingerować nadmiernie w Twoją prywatność ani nie będzie stanowić dla Ciebie nadmiernej uciążliwości."
+    },
+    "how_long": {
+      "title": "Jak długo przechowujemy Twoje dane osobowe?",
+      "content": "Twoje dane związane z zawarciem i realizacją przechowujemy przez okres 5 lat liczony od chwili zakończenia obowiązywania umowy."
+    },
+    "who": {
+      "title": "Komu udostępniamy Twoje dane osobowe?",
+      "content": "Twoje dane możemy udostępniać:",
+      "content_list1": "naszym pracownikom, którzy ściśle współpracują z Państwa firmą",
+      "content_list2": "uprawnionym organom państwowym, które zwrócą się do nas o udostępnienie Twoich danych"
+    },
+    "another": {
+      "title": "Czy przekazujemy Twoje dane do państw trzecich?",
+      "content": "Państwo trzecie, to państwo w którym RODO nie jest obowiązującym prawem. Nie przekazujemy Twoich danych do takich państw."
+    },
+    "rights": {
+      "title": "Jakie prawa Ci przysługują?",
+      "header1": "Prawo do cofnięcia zgody",
+      "content1": "Zgodę na przetwarzanie danych wyrażasz dobrowolnie. Każdą zgodę możesz cofnąć w dowolnym momencie w formie pisemnej lub drogą elektroniczną. Nie ma to wpływu na zgodność z prawem przetwarzania, którego odbywało się na podstawie zgody przed jej cofnięciem.",
+      "header2": "Prawo dostępu do danych",
+      "content2": "Możesz zażądać:",
+      "content_list2_1": "abyśmy udzielili Ci informacji o tym czy przetwarzamy Twoje dane, a jeśli je przetwarzamy, możesz zażądać",
+      "content_list2_2": "abyśmy udzielili Ci dostępu do tych danych",
+      "content_list2_3": "abyśmy jeszcze raz udzielili Ci informacji o przetwarzaniu, z którymi się teraz zapoznajesz",
+      "header3": "Prawo do sprostowania",
+      "content3": "Jeśli uznasz, że Twoje dane osobowe, które przetwarzamy są nieprawidłowe lub niekompletne, masz prawo żądać, abyśmy je niezwłocznie sprostowali.",
+      "header4": "Prawo do usunięcia danych",
+      "content4": "Masz prawo zażądać, abyśmy przestali przetwarzać Twoje dane i usunęli je.",
+      "header5": "Prawo do ograniczenia przetwarzania",
+      "content5": "Jeśli uważasz, że:",
+      "content_list5_1": "twoje dane, które przetwarzamy są nieprawidłowe",
+      "content_list5_2": "uważasz, że przetwarzamy Twoje dane niezgodnie z prawem, ale nie chcesz, abyśmy je usuwali",
+      "content_list5_3": "dane, które przetwarzamy są Ci potrzebne do ustalenia, dochodzenia lub obrony roszczeń i nie chcesz, abyśmy je usuwali, choć są nam już niepotrzebne, możesz zażądać ograniczenia przetwarzania. Jeśli uznamy takie żądanie, będziemy Twoje dane wyłącznie przechowywać oraz przetwarzać tylko w celu ustalenia, dochodzenia lub obrony roszczeń, lub w celu ochrony praw innej osoby fizycznej lub prawnej lub z uwagi na ważny interes publiczny. Ograniczymy przetwarzanie Twoich danych również wtedy, gdy złożysz sprzeciw wobec przetwarzania z przyczyn związanych z Twoją szczególną sytuacją. Ograniczenie to będzie trwało, czy nasz interes jest nadrzędny wobec przyczyn Twojego sprzeciwu",
+      "header6": "Prawo do powiadomienia odbiorców",
+      "content6_1": "Jeśli Twoje dane zostaną sprostowane, usunięte lub ograniczymy ich przetwarzanie, poinformujemy o tym odbiorców tych danych, chyba, że będzie to niemożliwe lub wymagać będzie niewspółmiernego wysiłku.",
+      "content6_2": "Jeśli tego zażądasz, poinformujemy Ciebie o tych odbiorcach.",
+      "header7": "Prawo do przenoszenia danych",
+      "content7_1": "Jeśli Twoje dane są przetwarzane na podstawie zgody lub umowy i przetwarzane są w sposób zautomatyzowany, to zrealizujemy Twoje żądanie przeniesienia danych. Zostaną Ci one przekazane w powszechnie używanym formacie, który pozwoli je bez nadmiernych trudności przenieść do innego administratora.",
+      "content7_2": "Jeśli tego zażądasz prześlemy je bezpośrednio nowemu administratorowi.",
+      "content7_3": "Przeniesienie danych nie powoduje automatycznie ich usunięcia u nas.",
+      "header8": "Prawo do sprzeciwu",
+      "content8": "Masz prawo wnieść sprzeciw wobec przetwarzania Twoich danych z przyczyn związanych z Twoją szczególną sytuacją.",
+      "header9": "Prawo do wniesienia skargi do PUODO",
+      "content9_1": "Jeśli masz zastrzeżenia dotyczącą przetwarzania przez nas Twoich danych, wolimy, abyś zgłosiła/zgłosił się do nas w pierwszej kolejności. Możemy to naprawić.",
+      "content9_2": "Możesz również skontaktować się z Prezesem Urzędu Ochrony Danych Osobowych za pośrednictwem strony internetowej pod adresem:",
+      "content9_3": "Prezes Urzędu Ochrony Danych Osobowych",
+      "content9_4": "ul. Stawki 2",
+      "content9_5": "00-193 Warszawa"
     }
   }
 }
