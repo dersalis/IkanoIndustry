@@ -15,6 +15,7 @@ const routes: Routes = [
       {path: 'general', component: WacGeneralComponent},
       {path: 'offers', component: WacOffersComponent},
       {path: 'command', component: WacCommandComponent},
+      { path: '', redirectTo: 'general', pathMatch: 'full'},
     ]
   },
   { path: 'information_clause', component: InformationClauseComponent},
@@ -26,6 +27,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes)
+    //RouterModule.forChild(routes)
   ],
   exports: [RouterModule]
 })
