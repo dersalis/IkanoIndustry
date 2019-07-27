@@ -6,8 +6,47 @@
   },
   "meetPage": {
     "quotation": {
-      "title": "Our vision",
-      "content": "Create opportunities for a better life"
+      "title": "Nasza wizja",
+      "content": "Tworzyć możliwości lepszego życia"
+    },
+    "modern_factory": {
+      "title": "Where we come from",
+      "content1": "Ikano was originally part of the home furnishing company IKEA, founded 1943 by Ingvar Kamprad in Älmhult, Småland, in the Southern part of Sweden.",
+      "content2": "In 1988 Ikano became an independent group of companies, owned by the Kamprad family. We have built our own identity, but our constant drive to simplify people's lives and our cost-conscious mind-set remain the same.",
+      "content3": "As Ikano Industry, previously Dendro Poland, we started our activity in 1992, and since 2009 we produce mattresses from the first stage - polyurethane foam production through cutting out mattresses, sewing covers, to sending the finished product to the customer.",
+      "content4": "Our main customer is the international IKEA chain of stores.",
+      "content5": "In our everyday work, we constantly strive to innovate and optimize processes in order to create products of the highest quality. We use the latest technologies and develop our range of products, working in a way to exceed the expectations of our customers."
+    },
+    "our_values": {
+      "title": "Our values and promise",
+      "content1": "We want our customers, partners and co-workers to choose us for what we stand for, what we deliver and how we deliver it. ",
+      "content2": "We remain faithful to our three values:",
+      "content3": "working together, common sense and simplicity and the courage to be different,",
+      "content4": " which are based on a promise",
+      "content5": " - on fair terms.",
+      "content6": "Living our values is how we make a difference."
+    },
+    "​​employees_idee": {
+      "title": "Our people idea",
+      "content": "Together, we create a great place to work were people are inspired to be the best they can be while contributing to be better life for our customers and the long-term sucess of Ikano.",
+      "button": "Work and career"
+    },
+    "sustainable": {
+      "title": "Sustainable development",
+      "content1": "We care about providing products of the highest quality, that's why in everyday work we use the latest technologies and we constantly improve production processes.",
+      "content2": "At Ikano, we are in the midst of a great challenge.",
+      "content3": "As part of our long-term strategy we have committed to integrate sustainability in everything we do. For us, this means that our promise, on fair terms, needs to extend beyond our relations with customers and suppliers. We have to make sure that what we do is also fair to the people, the society and the planet we live on.",
+      "content4": "We are the only factory in the Europe that has an installation for the chemical recycling of flexible PUR foam. As a result of this process we receive repolyol, which is then used to produce a flexible foam.",
+      "content5": "We also have our own Foam Competence Center where we are looking for new ways to efficiently recycle our production waste and, possibly, in the future, post-consumer mattresses received from IKEA."
+    },
+    "in_brief": {
+      "title": "Ikano in brief",
+      "list1": "An international group of companies present in 15 countries in Europe and Southeast Asia",
+      "list2": "Over 4600 co-workers",
+      "list3": "Active in the area of ​​finance, insurance, production, real estate and retail",
+      "list4": "Initially part of IKEA, but became an independent group of companies in 1988",
+      "list5": "It is owned by the Kamprad family",
+      "list6": "Main office in Luxembourg"
     }
   },
   "page_information": {

@@ -8,6 +8,44 @@
     "quotation": {
       "title": "Nasza wizja",
       "content": "Tworzyć możliwości lepszego życia"
+    },
+    "modern_factory": {
+      "title": "Skąd pochodzimy",
+      "content1": "Firma Ikano była pierwotnie częścią IKEA, firmy założonej w 1943 roku przez Ingvara Kamprada w miejscowości Almhult położonej w Smolandii w południowej części Szwecji.",
+      "content2": "W 1988 r. Ikano stała się niezależną grupą przedsiębiorstw należących do rodziny Kamprad. Zbudowaliśmy własną tożsamość, ale nasze ciągłe dążenie do uproszczenia życia ludzi i nastawienie na świadomość kosztów pozostają takie same.",
+      "content3": "Jako Ikano Industry, wcześniej Dendro Poland, swoją działalność rozpoczęliśmy w 1992 roku, a od roku 2009 zajmujemy się produkcją materaców od pierwszego etapu - produkcji pianki poliuretanowej poprzez wycinanie materaców, szycie pokrowców, aż do wysłania gotowego produktu do klienta.",
+      "content4": "Naszym głównym klientem jest międzynarodowa sieć sklepów IKEA.",
+      "content5": "W codziennej pracy nieustannie dążymy do wprowadzania innowacji oraz optymalizacji procesów, aby tworzyć produkty najwyższej jakości. Korzystamy z najnowszych technologii i rozwijamy naszą gamę produktów, pracując, tak, aby przekraczać oczekiwania naszych klientów."
+    },
+    "our_values": {
+      "title": "Nasze wartości i obietnica",
+      "content1": "Zależy nam na tym, aby klienci, partnerzy i współpracownicy wybierali nas na ze względu na wartości, którymi kierujemy się w codziennej pracy.",
+      "content2": "Pozostajemy wierni trzem głównym zasadom:",
+      "content3": "współpracy, zdrowemu rozsądkowi i prostocie oraz odwadze bycia innym,",
+      "content4": " które wspierają realizację naszej obietnicy",
+      "content5": " - na uczciwych zasadach."
+    },
+    "​​employees_idee": {
+      "title": "Idea naszych pracowników",
+      "content": "Wspólnie tworzymy wyjątkowe miejsce pracy, w którym otwarci i entuzjastyczni ludzie współpracują ze sobą na uczciwych zasadach przyczyniając się tym samym do rozwoju całej firmy.",
+      "button": "Praca i kariera"
+    },
+    "sustainable": {
+      "title": "Zrównoważony rozwój",
+      "content1": "Zależy nam na dostarczaniu produktów najwyższej jakości, dlatego w codziennej pracy korzystamy z najnowocześniejszych technologii i nieustannie doskonalimy procesy produkcyjne.",
+      "content2": "Obecnie stoimy przed wielkim wyzwaniem.",
+      "content3": "W ramach długoterminowej strategii zobowiązaliśmy się integrować zrównoważony rozwój we wszystkim, co robimy. Oznacza to, że nasza obietnica, na uczciwych zasadach, musi zostać rozszerzona poza relacje z klientami i dostawcami. Musimy się upewnić, że to, co robimy, jest również uczciwe wobec społeczeństwa i planety, na której żyjemy.",
+      "content4": "Jesteśmy jedyną fabryka na świecie posiadającą instalację do chemicznego recyklingu elastycznej pianki PUR. W wyniku tego procesu otrzymywany jest repoliol, wykorzystywany następnie do produkcji elastycznej pianki.",
+      "content5": "Dysponujemy także własnym ośrodkiem badawczym, w którym poszukujemy nowych sposobów wydajnego recyclingu odpadów z naszej produkcji oraz, być może, w przyszłości, zużytych materaców odebranych klientów IKEA."
+    },
+    "in_brief": {
+      "title": "Ikano w skrócie",
+      "list1": "Międzynarodowa grupa firm obecna w 15 krajach w Europie i Azji Południowo-Wschodniej",
+      "list2": "Ponad 4600 współpracowników",
+      "list3": "Aktywna w obszarze finansów, ubezpieczeń, produkcji, nieruchomości i handlu detalicznego",
+      "list4": "Początkowo część IKEA, ale stała się niezależną grupą firm w 1988 roku",
+      "list5": "Jest własnością rodziny Kamprad",
+      "list6": "Głowna siedziba w Luksemburgu"
     }
   },
   "page_information": {

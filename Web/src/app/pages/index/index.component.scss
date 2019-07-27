@@ -1,4 +1,5 @@
 @import "../../scss/variables.scss";
+@import "../../scss/button_round.scss";
 
 .content {
   .section_gray {
@@ -43,6 +44,19 @@
           text-align: justify;
           color: #333333;
           margin-top: 30px;
+
+          p {
+            margin: 0;
+            margin-bottom: 10px;
+          }
+
+          .btn {
+            margin-left: 0px;
+            margin-top: 10px;
+            i {
+              margin-left: 10px;
+            }
+          }
         }
       }
     }
@@ -88,6 +102,19 @@
           text-align: justify;
           color: #333333;
           margin-top: 30px;
+
+          p {
+            margin: 0;
+            margin-bottom: 10px;
+          }
+
+          .btn {
+            margin-left: 0px;
+            margin-top: 10px;
+            i {
+              margin-left: 10px;
+            }
+          }
         }
       }
       .right {
