@@ -1,1 +1,60 @@
 @import "../../scss/variables.scss";
+
+$normal: rgb(200, 200, 200);
+$selected: whitesmoke;
+
+.submenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  background: #34353a;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    li {
+      display: inline-flex;
+      align-items: center;
+      padding: 0 15px;
+      margin: 0 1px;
+      height: 100%;
+      transition: color .3s, background .3s;
+
+      &:hover {
+        background: $background_dark;
+
+        a {
+          color: white;
+        }
+      }
+
+      a {
+        color: $normal;
+        text-decoration: none;
+        font-size: 15px;
+        transition: color .3s, background .3s, font-size .3;
+
+        &.active {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .submenu {
+    height: 30px;
+    ul {
+      li {
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

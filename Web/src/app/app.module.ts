@@ -16,6 +16,9 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { WacGeneralComponent } from './pages/wac-general/wac-general.component';
+import { WacOffersComponent } from './pages/wac-offers/wac-offers.component';
+import { WacCommandComponent } from './pages/wac-command/wac-command.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { FormsModule, ReactiveFormsModule} from '@angular/forms';
     NavigationComponent,
     TopPanelComponent,
     FooterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    WacGeneralComponent,
+    WacOffersComponent,
+    WacCommandComponent
   ],
   imports: [
     BrowserModule,

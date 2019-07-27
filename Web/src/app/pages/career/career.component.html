@@ -1,26 +1,10 @@
-<div class="content">
-  <div class="section gray">
-    <div class="box" style="height: 600px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-      <h1>Praca i kariera</h1>
-      <h2 style="color: gray">Strona w przygotowaniu!</h2>
-    </div>
-  </div>
-  <div class="section white">
-
-  </div>
-  <div class="section">
-
-  </div>
-  <div class="section white">
-
-  </div>
-  <div class="section">
-
-  </div>
-  <div class="section white">
-
-  </div>
-  <div class="footer">
-    <app-footer></app-footer>
-  </div>
+<div class="submenu">
+  <ul>
+    <li><a routerLink="general" routerLinkActive="active">Ogólne</a></li>
+    <li><a routerLink="offers" routerLinkActive="active">Oferty</a></li>
+    <li><a routerLink="command" routerLinkActive="active">Program poleceń</a></li>
+    <li><a href="../../../assets/files/PrzykladoweCV.pdf">Przykładowe CV</a></li>
+  </ul>
 </div>
+
+<router-outlet></router-outlet>

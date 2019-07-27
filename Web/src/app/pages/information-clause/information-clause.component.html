@@ -22,7 +22,7 @@
   </div>
 
   <!-- Kontrahenci -->
-  <div class=" section section_gray">
+  <div class="section section_gray">
     <div class="box">
       <div class="header">
         {{ 'page_information.contractors.title' | translate }}
@@ -36,7 +36,7 @@
   </div>
 
   <!-- Kim jestetśmy? -->
-  <div class=" section section_white">
+  <div class="section section_white">
     <div class="box">
       <div class="header">
         {{ 'page_information.who_we_are.title' | translate }}
@@ -53,7 +53,7 @@
   </div>
 
   <!-- Inspektor ochrony danych -->
-  <div class=" section section_gray">
+  <div class="section section_gray">
     <div class="box">
       <div class="header">
         {{ 'page_information.iod.title' | translate }}
@@ -75,7 +75,7 @@
           <textarea name="message" id="message" formControlName="message" cols="30" rows="8"></textarea>
           <div class="error">
               <div *ngIf="send && f.message.errors" class="invalid-feedback">
-                  <div *ngIf="f.message.errors.required">Message is required</div>
+                  <div *ngIf="f.message.errors.required">{{ 'page_information.iod.messageError' | translate }}</div>
               </div>
           </div>
 
@@ -83,8 +83,8 @@
           <input name="contact" id="contact" formControlName="contact" type="text">
           <div class="error">
               <div *ngIf="send && f.contact.errors" class="invalid-feedback">
-                  <div *ngIf="f.contact.errors.required">Email is required</div>
-                  <div *ngIf="f.contact.errors.email">Email must be a valid email address</div>
+                  <div *ngIf="f.contact.errors.required">{{ 'page_information.iod.contactError1' | translate }}</div>
+                  <div *ngIf="f.contact.errors.email">{{ 'page_information.iod.contactError2' | translate }}</div>
               </div>
           </div>
 
@@ -104,7 +104,7 @@
   </div>
 
   <!-- Po co -->
-  <div class=" section section_white">
+  <div class="section section_white">
     <div class="box">
       <div class="header">
         {{ 'page_information.for_what.title' | translate }}
@@ -124,7 +124,7 @@
   </div>
 
   <!-- Jak długo -->
-  <div class=" section section_gray">
+  <div class="section section_gray">
     <div class="box">
       <div class="header">
         {{ 'page_information.how_long.title' | translate }}
@@ -138,7 +138,7 @@
   </div>
 
   <!-- Komu -->
-  <div class=" section section_white">
+  <div class="section section_white">
     <div class="box">
       <div class="header">
         {{ 'page_information.who.title' | translate }}
@@ -156,7 +156,7 @@
   </div>
 
   <!-- Udostępnianie innym -->
-  <div class=" section section_gray">
+  <div class="section section_gray">
     <div class="box">
       <div class="header">
         {{ 'page_information.another.title' | translate }}
@@ -170,7 +170,7 @@
   </div>
 
   <!-- Prawa -->
-  <div class=" section section_white">
+  <div class="section section_white">
     <div class="box">
       <div class="header">
         {{ 'page_information.rights.title' | translate }}

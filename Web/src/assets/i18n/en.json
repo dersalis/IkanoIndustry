@@ -76,7 +76,10 @@
       "content5": "Klauzula informacyjna:",
       "content_list4": "W przypadku zgłoszenia naruszenia ochrony danych osobowych, skontaktujemy się z podmiotem, którego naruszenie dotyczy, w ciągu 72h. Informujemy również, że czas ten może ulec wydłużeniu w uzasadnionych przypadkach",
       "content_list5": "W przypadku otrzymania żądania informacji o przetwarzaniu danych osobowych, skontaktujemy się z Toba w ciągu 30 dni kalendarzowych",
-      "button": "Wyślij formularz"
+      "button": "Wyślij formularz",
+      "messageError": "Message is required",
+      "contactError1": "Email is required",
+      "contactError2": "Email must be a valid email address"
     },
     "for_what": {
       "title": "Po co i na jakiej podstawie przetwarzamy Twoje dane osobowe?",

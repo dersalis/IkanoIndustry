@@ -12,7 +12,9 @@
     .box {
       display: flex;
       flex-direction: column;
-      margin: 40px 20px;
+      //margin: 40px 20px;
+      width: 1160px;
+      margin: 40px auto;
 
       .header {
         font-size: 30px;
@@ -80,13 +82,15 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .content {
     .section {
       .box {
-        width: 1160px;
-        margin-left: auto;
-        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        // width: 1160px;
+        // margin: 40px auto;
+        margin: 40px 20px;
       }
     }
   }
