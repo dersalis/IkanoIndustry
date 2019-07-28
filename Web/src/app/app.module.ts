@@ -19,6 +19,7 @@ import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { WacGeneralComponent } from './pages/wac-general/wac-general.component';
 import { WacOffersComponent } from './pages/wac-offers/wac-offers.component';
 import { WacCommandComponent } from './pages/wac-command/wac-command.component';
+import { NgxCaptchaModule } from 'ngx-captcha';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { WacCommandComponent } from './pages/wac-command/wac-command.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgxCaptchaModule,
     FacebookModule.forRoot(),
     HttpClientModule,
     FormsModule,
@@ -47,7 +49,7 @@ import { WacCommandComponent } from './pages/wac-command/wac-command.component';
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
   ],
   // providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   providers: [],

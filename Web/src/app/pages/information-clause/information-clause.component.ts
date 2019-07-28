@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FacebookService, InitParams } from 'ngx-facebook';
 import { HttpClient } from '@angular/common/http';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { ReCaptcha2Component} from 'ngx-captcha';
 
 @Component({
   selector: 'app-information-clause',
@@ -11,10 +12,10 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class InformationClauseComponent implements OnInit {
   messageForm: FormGroup;
   send = false;
-
-  public message: string = "";
-  public contact: string = "";
-  private ipAddress: string = "";
+  public siteKey: string = '';
+  public message: string = '';
+  public contact: string = '';
+  private ipAddress: string = '';
 
   // Zwróć IP użytkownika
   private getIP(): void {
@@ -25,7 +26,11 @@ export class InformationClauseComponent implements OnInit {
       });
   }
 
-  constructor(private fb: FacebookService, private http: HttpClient, private formBuilder: FormBuilder) {
+  constructor(private fb: FacebookService,
+    private http: HttpClient,
+    private formBuilder: FormBuilder,
+    //private reCaptchaV3Service: ReCaptchaV3Service
+    ) {
     let initParams: InitParams = {
       // appId: '1234566778',
       xfbml: true,
@@ -34,6 +39,7 @@ export class InformationClauseComponent implements OnInit {
 
     fb.init(initParams);
 
+    this.siteKey = '6LeC8q8UAAAAAAXkgfpR8N6e8lK4bIN6namQFofx';
     this.getIP();
   }
 
@@ -41,7 +47,14 @@ export class InformationClauseComponent implements OnInit {
     this.messageForm = this.formBuilder.group({
       message: ['', Validators.required],
       contact: ['', [Validators.required, Validators.email]],
+      recaptcha: ['', Validators.required],
     });
+
+    // this.reCaptchaV3Service.execute(this.siteKey, 'homepage', (token) => {
+    //   console.log('This is your token: ', token);
+    // }, {
+    //     useGlobalDomain: false
+    // });
   }
 
   // convenience getter for easy access to form fields
@@ -59,8 +72,13 @@ export class InformationClauseComponent implements OnInit {
 
     this.messageForm.reset();
     this.send = false;
+    this.reload();
   }
 
 
+  @ViewChild('captchaElem', { static: false }) captchaElem: ReCaptcha2Component;
+  reload(): void {
+    this.captchaElem.reloadCaptcha();
+  }
 
 }
