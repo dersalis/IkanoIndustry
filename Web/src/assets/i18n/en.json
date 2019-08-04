@@ -135,5 +135,68 @@
       "content9_4": "ul. Stawki 2",
       "content9_5": "00-193 Warszawa"
     }
+  },
+  "wac_general": {
+    "quotation": {
+      "title": "Droga do rozwoju",
+      "content": "\"Konkurenci mogą skopiować każdy element Twojej działalności, ale nie firmowego ducha. To właśnie duch jest tym, co odróżnia firmę od innych.\" Ingvar Kamprad"
+    },
+    "values": {
+      "title": "Our values",
+      "header1": "Common sense and simplicity",
+      "content1_1": "Common sense and simplicity are part of our Småland heritage and our culture. It is about being ourselves and staying close to reality. Understanding the needs of our customers and finding ways to improve their everyday life.",
+      "content1_2": "We have a simple down-to-earth business approach and a cost-conscious mind-set. It is about cutting out unnecessary processes, being practical and using our common sense to solve problems.",
+      "content1_3": "Fewer rules and fewer words are easier to understand and follow. Policies and guidelines are sometimes necessary but need to be communicated in a clear and straightforward way.",
+      "header2": "Daring to be different",
+      "content2_1": "What makes us unique is that we try to do things differently. Not just for the sake of it – but in order to create simple and meaningful solutions that make a difference to the many people.",
+      "content2_2": "We are driven by curiosity and constantly strive to find new and better ways to run our business and add customer value. To do this, we must dare to ask simple question „why?”",
+      "content2_3": "Thinking differently is also about challenging the established ways but keep in mind, daring to be different doeas not always mean creating something new. It can also mean talking good solutions from the past. Why reinvent the wheel?",
+      "content2_4": "When we think differently, we do it to stay one steep ahead, reduce costs and strenghten the business. All to improve and simplify the everyday life of our customers. Basically whatever we are doing today, we can do a bit better tomorrow.",
+      "header3": "On fair terms",
+      "content3_1": "At Ikano we ask ourselves: „Is this on fair terms?” We constantly review our solutions and our way of working with customers, partners and co-workers because we are in business for the long run and we want to build sustainable relationships.",
+      "content3_2": "Being on fair terms is essential for building strong relationships, creating value and growing a business. We live the promise- on fair terms – because we know that quality and reputation of a company is determined by the promise made and the promise kept. On fair terms means striking the right balance between risks, work and profit. It also means being open and clear in our way of doing business and showing accountability for the decisions we take.",
+      "content3_3": "Ikano is a fair company, a fair employer and a good local neighbour. We act for a sustainable future, taking responsibility for the economic, social and environmental aspects related to our business. We make an extra effort to suport selected social initiatives, where our help can make a difference."
+    },
+    "work": {
+      "title": "How we work",
+      "content1": "We believe everyone working at Ikano at Ikano is important.",
+      "content2": "Our co-workers are professionaland skilled people who want to grow and make Ikano grow.",
+      "content3": "People who share our values, understand our customer’s expectations and contribute to buiolding profitable business.",
+      "content4": "Diveristy is esential to us. We believe that no one is the best in the world at everything. That is why we surround ourselves with people with all kinds of backgrounds and strenghts. This is our way to build a sustainable and high-perfoming Ikano."
+    },
+    "manage": {
+      "title": "How we lead",
+      "content1": "We believe that leadership is action not position.",
+      "content2": "We are all Ikano ambassadors, acting as role models and inspiring each otcher to deliver on our vision to create possibilities for better living for our customers.",
+      "content3": "At Ikano, business will never be a one-person-show- it is about finding better ways together."
+    },
+    "grow": {
+      "title": "Growing with us",
+      "content1": "Working at Ikano means that you are part of an inspiring, fun and fast-paced environment and  there is no typical career path. We are convinced that work in itself is the best setting for developing, knowledge, capabilities and motivation. In other words, growth happens every day in our interactions with customers, partners, your colleagues and managers.",
+      "content2": "Ikano can only grow thanks to the development of our colleagues. Together we find a better way!",
+      "button": "Work and career"
+    },
+    "count": {
+      "title": "Working at Ikano you can count on:",
+      "list1": "Stable and fair employment conditions",
+      "list2": "A friendly atmosphere",
+      "list3": "Cooperation",
+      "list4": "Possibilities of development",
+      "list5": "A rich package of benefits for the whole family",
+      "list6": "Co-financing of studies"
+    }
+  },
+  "wac_offers": {
+    "quotation": {
+      "title": "Praca w Ikano oznacza,",
+      "content": "że ​​jesteś częścią inspirującego, dynamicznego i zrównoważonego środowiska!"
+    },
+    "content": {
+      "content1": "Jeśli chcesz polecić kandydata w ramach programu „Nagradzanie za polecanie” zapoznaj się z regulaminem oraz wypełnij formularz: ",
+      "button1": "Regulamin",
+      "button2": "Przykładowe CV",
+      "button3": "Wyślij formularz",
+      "content2": "Jeśli Twój Kandydat rozpocznie pracę w Ikano Industry skontaktujemy się z Tobą. "
+    }
   }
 }

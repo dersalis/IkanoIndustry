@@ -80,5 +80,5 @@ export class InformationClauseComponent implements OnInit {
   reload(): void {
     this.captchaElem.reloadCaptcha();
   }
-
+  
 }

@@ -134,5 +134,68 @@
       "content9_4": "ul. Stawki 2",
       "content9_5": "00-193 Warszawa"
     }
+  },
+  "wac_general": {
+    "quotation": {
+      "title": "Droga do rozwoju",
+      "content": "\"Konkurenci mogą skopiować każdy element Twojej działalności, ale nie firmowego ducha. To właśnie duch jest tym, co odróżnia firmę od innych.\" Ingvar Kamprad"
+    },
+    "values": {
+      "title": "Wartości",
+      "header1": "Zdrowy rozsądek i prostota",
+      "content1_1": "Zdrowy rozsądek i prostota są częścią naszego smalandzkiego dziedzictwa i kultury. Ich sednem jest bycie sobą i pozostawanie w ścisłym kontakcie z rzeczywistością. Zrozumienie potrzeb klientów i znajdowanie sposobów, aby ulepszyć ich codzienne życie.",
+      "content1_2": "W działalności biznesowej jesteśmy praktyczni, twardo stąpamy po ziemi i pilnujemy kosztów. Jeśli chcemy obniżyć koszty, najważniejsze jest pozbycie się zbędnych procesów, bycie praktycznym oraz wykorzystywanie zdrowego rozsądku do rozwiązywania problemów.",
+      "content1_3": "Im mniej reguł i przepisów, tym łatwiej się do nich stosować. Zasady i wytyczne są czasami niezbędne, powinny jednak być komunikowane w sposób jasny i prosty.",
+      "header2": "Odwaga bycia innym",
+      "content2_1": "Co czyni nas unikatowymi? To, że próbujemy osiągać cele na różne sposoby. Nie jest to sztuka dla sztuki, lecz próba stworzenia prostych i sensownych rozwiązań, które mają znaczenie dla szerokich rzesz klientów i współpracowników.",
+      "content2_2": "Nieustannie poszukujemy nowych i lepszych sposobów na prowadzenie działalności i zwiększanie wartości dla klienta. Aby tego dokonać musimy zadać sobie proste pytanie: dlaczego?",
+      "content2_3": "Myślenie w inny sposób to również kwestionowanie rutynowych metod pracy, trzeba jednak pamiętać, że odwaga bycia innym nie zawsze oznacza tworzenie czegoś nowego. Może ona również polegać na wykorzystywaniu dobrych rozwiązań z przeszłości. Po co odkrywać koło na nowo?",
+      "content2_4": "Gdy myślimy inaczej robimy to, aby być krok przed konkurencją, zmniejszyć koszty i wzmocnić działalność. Wszystko po to, aby ulepszyć i uprościć codzienne życie naszych klientów. Zasada jest prosta – wszystko, co robimy dziś możemy zrobić lepiej jutro.",
+      "header3": "Na uczciwych zasadach",
+      "content3_1": "W Ikano zadajemy sobie pytanie: „czy przestrzegamy uczciwych zasadach?” Nieustannie analizujemy nasze rozwiązania i metody pracy z klientami, partnerami i współpracownikami, ponieważ o naszej działalności myślimy długoterminowo i zależy nam na budowaniu trwałych relacji.",
+      "content3_2": "Kierowanie się uczciwymi zasadami to podstawa budowania silnych więzi biznesowych, kreowania wartości i rozwijania firmy. Działamy zgodnie z naszą obietnicą, czyli na uczciwych zasadach, ponieważ wiemy, że o jakości i reputacji firmy decyduje nie tylko składanie obietnic, lecz również ich dotrzymywanie. Hasło „na uczciwych zasadach” oznacza znalezienie odpowiedniej równowagi między ryzykiem, pracą i zyskami. Oznacza to również przejrzystość i jasność w sposobie prowadzenia przez nas działalności oraz przyjmowanie odpowiedzialności za decyzje.",
+      "content3_3": "Ikano to uczciwa firma, uczciwy pracodawca i dobry sąsiad. Działamy na rzecz zrównoważonej przyszłości, przyjmując odpowiedzialność za aspekty gospodarcze, społeczne i środowiskowe związane z naszą działalnością. Dokładamy wszelkich starań, aby wspierać wybrane inicjatywy społeczne, w których nasza pomoc może coś znaczyć."
+    },
+    "work": {
+      "title": "Jak pracujemy",
+      "content1": "Wierzymy, że każdy, kto pracuje w Ikano jest ważny.",
+      "content2": "Nasi pracownicy to profesjonaliści, którzy chcą rozwijać zarówno siebie, jak i firmę. To wyjątkowi ludzie, którzy podzielają nasze wartości, rozumieją oczekiwania naszych klientów i tym samym przyczyniają się do rozwoju firmy.",
+      "content3": "Istotna jest dla nas różnorodność. Wyznajemy zasadę, że nikt nie może być najlepszy we wszystkim. Dlatego otaczamy się współpracownikami o różnorodnych umiejętnościach i mocnych stronach.",
+      "content4": "To nasz sposób na zbudowanie zrównoważonego i wydajnego Ikano."
+    },
+    "manage": {
+      "title": "Jak zarządzamy",
+      "content1": "Wierzymy, że przywództwo to działanie, a nie pozycja.",
+      "content2": "Wszyscy jesteśmy ambasadorami Ikano. Współpracujemy i inspirujemy się nawzajem by zrealizować naszą wizję tworzenia możliwości lepszego życia.",
+      "content3": "W naszej działalności nie ma miejsca na jedoosobowe show, ponieważ chodzi o znalezienie lepszego sposobu razem (a better way together)."
+    },
+    "grow": {
+      "title": "Rozwijaj się z nami",
+      "content1": "Praca w Ikano oznacza, że ​​jesteś częścią inspirującego, dynamicznego i zrównoważnonego środowiska, gdzie nie ma typowej ścieżki kariery. Jesteśmy przekonani, że praca sama w sobie jest najlepszym miejscem do rozwoju wiedzy, zdolności i motywacji. Innymi słowy, rozwój odbywa się codziennie w naszych interakcjach z klientami, partnerami, współpracownikami i menedżerami.",
+      "content2": "Ikano może się rozwijać tylko dzięki rozwojowi naszych współpracowników. Razem znajdujemy lepszą drogę!",
+      "button": "Praca i kariera"
+    },
+    "count": {
+      "title": "W Ikano Industry możesz liczyć na:",
+      "list1": "Stabilne i uczciwe warunki zatrudnienia",
+      "list2": "Przyjazną atmosferę",
+      "list3": "Współpracę",
+      "list4": "Możliwości rozwoju",
+      "list5": "Bogaty pakiet benefitów i świadczeń socjalnych dla całej rodziny",
+      "list6": "Dofinansowanie studiów"
+    }
+  },
+  "wac_offers": {
+    "quotation": {
+      "title": "Praca w Ikano oznacza,",
+      "content": "że ​​jesteś częścią inspirującego, dynamicznego i zrównoważonego środowiska!"
+    },
+    "content": {
+      "content1": "Jeśli chcesz polecić kandydata w ramach programu „Nagradzanie za polecanie” zapoznaj się z regulaminem oraz wypełnij formularz: ",
+      "button1": "Regulamin",
+      "button2": "Przykładowe CV",
+      "button3": "Wyślij formularz",
+      "content2": "Jeśli Twój Kandydat rozpocznie pracę w Ikano Industry skontaktujemy się z Tobą. "
+    }
   }
 }
