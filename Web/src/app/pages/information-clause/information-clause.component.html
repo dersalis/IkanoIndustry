@@ -14,8 +14,12 @@
           {{ 'page_information.security_measures.content' | translate }}
         </p>
         <a class="btn" href="../../../assets/files/Instrukcja-postepowania.pdf">
-          {{ 'page_information.security_measures.button' | translate }}
-          <i class="fas fa-download"></i>
+          <div class="text">
+            {{ 'page_information.security_measures.button' | translate }}
+          </div>
+          <div class="icon">
+            <i class="fas fa-download"></i>
+          </div>
         </a>
       </div>
     </div>
@@ -101,8 +105,12 @@
           </ngx-recaptcha2>
 
           <button class="btn">
-            {{ 'page_information.iod.button' | translate }}
-            <i class="fas fa-paper-plane"></i>
+            <div class="text">
+              {{ 'page_information.iod.button' | translate }}
+            </div>
+            <div class="icon">
+              <i class="fas fa-paper-plane"></i>
+            </div>
           </button>
         </form>
 

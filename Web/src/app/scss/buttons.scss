@@ -1,0 +1,58 @@
+@import "variables.scss";
+
+.link {
+  color: $color_primary_red;
+  text-decoration: none;
+  transition: color 0.3s;
+
+  &:hover {
+    color: $color_interface_primary_hover_color;
+  }
+
+  &:active {
+    color: $color_interface_primary_hover_color;
+  }
+}
+
+.btn {
+  // position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30px;
+  border: 1px solid $color_primary_red;
+  border-radius: 2px;
+  background: $color_primary_red;
+  color: $color_primary_white;
+  font-size: 14px;
+  margin: 3px 3px;
+  //padding: 0px 10px;
+  cursor: pointer;
+  transition: border 0.3s, color 0.3s, background 0.3s;
+  text-decoration: none;
+  outline: none;
+  .text {
+    padding-left: 10px;
+  }
+  .icon {
+    padding-right: 10px;
+    transition: padding .3s;
+  }
+
+  &:hover {
+    border: 1px solid $color_interface_primary_hover_color;
+    background: $color_interface_primary_hover_color;
+    color: $color_primary_white;
+    outline: none;
+    .icon {
+      padding: 0 5px;
+    }
+  }
+
+  &:active {
+    border: 1px solid $color_interface_primary_hover_color;
+    background: $color_interface_primary_hover_color;
+    color: $color_primary_white;
+    outline: none;
+  }
+}

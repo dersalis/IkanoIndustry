@@ -1,3 +1,22 @@
+// *** Kolory ***
+$color_primary_red: rgb(236, 0, 0);
+$color_primary_grey: rgb(136, 127, 111);
+$color_primary_white: rgb(255, 255, 255);
+
+$color_secondary_orange: rgb(255, 130, 0);
+$color_secondary_yellow: rgb(255, 190, 0);
+$color_secondary_black: rgb(0, 0, 0);
+$color_secondary_grey: rgb(205, 200, 190);
+$color_secondary_green: rgb(141, 199, 63);
+
+$color_interface_dark_grey_contrast: rgb(52, 53, 58);
+$color_interface_light_grey_section: rgb(248, 247, 246);
+$color_interface_light_grey_graphical: rgb(235, 234, 233);
+$color_interface_primary_hover_color: rgb(197, 15, 15);
+$color_interface_secondary_hover_color: #de9e11;
+$color_interface_green: rgb(141, 199, 63);
+
+
 $background_light: rgb(255, 255, 255);
 $background_gray: rgb(248, 247, 246);
 $background_dark: rgb(34, 34, 34);
@@ -5,7 +24,7 @@ $background_dark: rgb(34, 34, 34);
 $color_normal: #333333;
 $color_light: #777777;
 
-$line_red_normal: rgb(236, 0, 0);
+// $line_red_normal: rgb(236, 0, 0);
 $line_red_light: rgb(236, 156, 156);
 
 $header_height_min: 125px;

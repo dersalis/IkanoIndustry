@@ -1,7 +1,7 @@
 {
   "navigation": {
-    "meet": "Get to know each other",
-    "career": "Work and career",
+    "meet": "About us",
+    "career": "Working at Ikano",
     "information_clausule": "Information clause"
   },
   "meetPage": {
@@ -192,6 +192,7 @@
       "content": "że ​​jesteś częścią inspirującego, dynamicznego i zrównoważonego środowiska!"
     },
     "content": {
+      "title": "Program poleceń",
       "content1": "Jeśli chcesz polecić kandydata w ramach programu „Nagradzanie za polecanie” zapoznaj się z regulaminem oraz wypełnij formularz: ",
       "button1": "Regulamin",
       "button2": "Przykładowe CV",

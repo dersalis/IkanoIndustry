@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   min-height: 30px;
-  border: 1px solid $line_red_light;
+  border: 1px solid $color_primary_red;
   color: $color_light;
   margin: 3px 3px;
   padding: 0px 10px;
@@ -25,7 +25,7 @@
   //}
 
   &:hover {
-    border: 1px solid $line_red_normal;
+    border: 1px solid $color_primary_red;
     background: transparent;
     color: $color_normal;
     outline: none;
@@ -39,8 +39,8 @@
   }
 
   &:active {
-    border: 1px solid $line_red_normal;
-    background: $line_red_normal;
+    border: 1px solid $color_primary_red;
+    background: $color_primary_red;
     color: white;
     outline: none;
 
@@ -58,7 +58,7 @@
   align-items: center;
   height: 30px;
   width: 30px;
-  border: 1px solid $line_red_light;
+  border: 1px solid $color_primary_red;
   border-radius: 50%;
   color: $color_light;
   margin: 0px 3px;
@@ -75,7 +75,7 @@
   }
 
   &:hover {
-    border: 1px solid $line_red_normal;
+    border: 1px solid $color_primary_red;
     background: transparent;
     color: $color_normal;
 
@@ -88,8 +88,8 @@
   }
 
   &:active {
-    border: 1px solid $line_red_normal;
-    background: $line_red_normal;
+    border: 1px solid $color_primary_red;
+    background: $color_primary_red;
     color: white;
 
     &::before {

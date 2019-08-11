@@ -1,5 +1,5 @@
 @import "../../scss/variables.scss";
-@import "../../scss/button_round.scss";
+@import "../../scss/buttons.scss";
 
 .content {
   .section_gray {
@@ -35,7 +35,7 @@
 
         .header {
           font-size: 30px;
-          color: $line_red_normal;
+          color: $color_primary_red;
           line-height: 1.1;
         }
         .description {
@@ -102,7 +102,7 @@
 
         .header {
           font-size: 30px;
-          color: $line_red_normal;
+          color: $color_primary_red;
           line-height: 1.1;
         }
         .description {

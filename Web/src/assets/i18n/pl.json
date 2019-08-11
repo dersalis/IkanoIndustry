@@ -35,8 +35,8 @@
       "content1": "Zależy nam na dostarczaniu produktów najwyższej jakości, dlatego w codziennej pracy korzystamy z najnowocześniejszych technologii i nieustannie doskonalimy procesy produkcyjne.",
       "content2": "Obecnie stoimy przed wielkim wyzwaniem.",
       "content3": "W ramach długoterminowej strategii zobowiązaliśmy się integrować zrównoważony rozwój we wszystkim, co robimy. Oznacza to, że nasza obietnica, na uczciwych zasadach, musi zostać rozszerzona poza relacje z klientami i dostawcami. Musimy się upewnić, że to, co robimy, jest również uczciwe wobec społeczeństwa i planety, na której żyjemy.",
-      "content4": "Jesteśmy jedyną fabryka na świecie posiadającą instalację do chemicznego recyklingu elastycznej pianki PUR. W wyniku tego procesu otrzymywany jest repoliol, wykorzystywany następnie do produkcji elastycznej pianki.",
-      "content5": "Dysponujemy także własnym ośrodkiem badawczym, w którym poszukujemy nowych sposobów wydajnego recyclingu odpadów z naszej produkcji oraz, być może, w przyszłości, zużytych materaców odebranych klientów IKEA."
+      "content4": "Jesteśmy jedyną fabryką na świecie posiadającą instalację do chemicznego recyklingu elastycznej pianki PUR. W wyniku tego procesu otrzymywany jest repoliol, wykorzystywany następnie do produkcji elastycznej pianki.",
+      "content5": "Dysponujemy także własnym ośrodkiem badawczym, w którym poszukujemy nowych sposobów wydajnego recyclingu produktów ubocznych naszej produkcji oraz, być może w przyszłości, materaców obebranych od klientów IKEA."
     },
     "in_brief": {
       "title": "Ikano w skrócie",
@@ -152,7 +152,7 @@
       "content2_3": "Myślenie w inny sposób to również kwestionowanie rutynowych metod pracy, trzeba jednak pamiętać, że odwaga bycia innym nie zawsze oznacza tworzenie czegoś nowego. Może ona również polegać na wykorzystywaniu dobrych rozwiązań z przeszłości. Po co odkrywać koło na nowo?",
       "content2_4": "Gdy myślimy inaczej robimy to, aby być krok przed konkurencją, zmniejszyć koszty i wzmocnić działalność. Wszystko po to, aby ulepszyć i uprościć codzienne życie naszych klientów. Zasada jest prosta – wszystko, co robimy dziś możemy zrobić lepiej jutro.",
       "header3": "Na uczciwych zasadach",
-      "content3_1": "W Ikano zadajemy sobie pytanie: „czy przestrzegamy uczciwych zasadach?” Nieustannie analizujemy nasze rozwiązania i metody pracy z klientami, partnerami i współpracownikami, ponieważ o naszej działalności myślimy długoterminowo i zależy nam na budowaniu trwałych relacji.",
+      "content3_1": "W Ikano zadajemy sobie pytanie: „czy przestrzegamy uczciwych zasad?” Nieustannie analizujemy nasze rozwiązania i metody pracy z klientami, partnerami i współpracownikami, ponieważ o naszej działalności myślimy długoterminowo i zależy nam na budowaniu trwałych relacji.",
       "content3_2": "Kierowanie się uczciwymi zasadami to podstawa budowania silnych więzi biznesowych, kreowania wartości i rozwijania firmy. Działamy zgodnie z naszą obietnicą, czyli na uczciwych zasadach, ponieważ wiemy, że o jakości i reputacji firmy decyduje nie tylko składanie obietnic, lecz również ich dotrzymywanie. Hasło „na uczciwych zasadach” oznacza znalezienie odpowiedniej równowagi między ryzykiem, pracą i zyskami. Oznacza to również przejrzystość i jasność w sposobie prowadzenia przez nas działalności oraz przyjmowanie odpowiedzialności za decyzje.",
       "content3_3": "Ikano to uczciwa firma, uczciwy pracodawca i dobry sąsiad. Działamy na rzecz zrównoważonej przyszłości, przyjmując odpowiedzialność za aspekty gospodarcze, społeczne i środowiskowe związane z naszą działalnością. Dokładamy wszelkich starań, aby wspierać wybrane inicjatywy społeczne, w których nasza pomoc może coś znaczyć."
     },
@@ -191,6 +191,7 @@
       "content": "że ​​jesteś częścią inspirującego, dynamicznego i zrównoważonego środowiska!"
     },
     "content": {
+      "title": "Program poleceń",
       "content1": "Jeśli chcesz polecić kandydata w ramach programu „Nagradzanie za polecanie” zapoznaj się z regulaminem oraz wypełnij formularz: ",
       "button1": "Regulamin",
       "button2": "Przykładowe CV",

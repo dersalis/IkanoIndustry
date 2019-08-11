@@ -1,5 +1,6 @@
 @import "../../scss/variables.scss";
-@import "../../scss/button_round.scss";
+// @import "../../scss/button_round.scss";
+@import "../../scss/buttons.scss";
 @import "../../scss/inputs.scss";
 
 .content {
@@ -18,7 +19,7 @@
 
       .header {
         font-size: 30px;
-        color: $line_red_normal;
+        color: $color_primary_red;
         line-height: 1.1;
       }
       .description {
@@ -53,7 +54,7 @@
         .error {
           font-size: 12px;
           font-weight: bold;
-          color: red;
+          color:$color_primary_red;
           margin-top: -10px;
           margin-bottom: 10px;
           height: 14px;
