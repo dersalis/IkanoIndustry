@@ -192,6 +192,17 @@
       "content": "że ​​jesteś częścią inspirującego, dynamicznego i zrównoważonego środowiska!"
     },
     "content": {
+      "title": "Oferty pracy",
+      "button1": "Aplikuj",
+      "button2": "Zobacz więcej"
+    }
+  },
+  "wac_command": {
+    "quotation": {
+      "title": "Praca w Ikano oznacza,",
+      "content": "że ​​jesteś częścią inspirującego, dynamicznego i zrównoważonego środowiska!"
+    },
+    "content": {
       "title": "Program poleceń",
       "content1": "Jeśli chcesz polecić kandydata w ramach programu „Nagradzanie za polecanie” zapoznaj się z regulaminem oraz wypełnij formularz: ",
       "button1": "Regulamin",

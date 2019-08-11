@@ -80,6 +80,26 @@
     &.section_gray {
     }
   }
+
+  .section {
+    .quotation {
+      width: 100%;
+      margin: 0px 20px;
+      .content {
+        display: inline-block;
+        background: rgba(0, 0, 0, 0.4);
+        color: white;
+        padding: 30px;
+
+        .title {
+          font-size: 50px;
+        }
+        .description {
+          font-size: 30px;
+        }
+      }
+    }
+  }
 }
 
 .btn {
@@ -102,4 +122,17 @@
       }
     }
   }
+}
+
+@media (min-width: 1200px) {
+  .content {
+    .section {
+      .quotation {
+        width: 1160px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
 }
