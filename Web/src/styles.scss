@@ -1,8 +1,13 @@
 @import 'app/scss/variables.scss';
 
+@font-face {
+  font-family: Ikano;
+  src: url(/src/assets/fonts/ikano_sans/IkanoSans-Regular.woff2) format('woff2'),
+       url(/src/assets/fonts/ikano_sans/IkanoSans-Regular.woff) format('woff');
+}
 
 body {
-  font-family: "Ikano Sans", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Ikano, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: $color_normal;
