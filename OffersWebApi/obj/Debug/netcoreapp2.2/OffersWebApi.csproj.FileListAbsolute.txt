@@ -1,0 +1,14 @@
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/bin/Debug/netcoreapp2.2/OffersWebApi.deps.json
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/bin/Debug/netcoreapp2.2/OffersWebApi.runtimeconfig.json
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/bin/Debug/netcoreapp2.2/OffersWebApi.runtimeconfig.dev.json
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/bin/Debug/netcoreapp2.2/OffersWebApi.dll
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/bin/Debug/netcoreapp2.2/OffersWebApi.pdb
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/obj/Debug/netcoreapp2.2/OffersWebApi.csprojAssemblyReference.cache
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/obj/Debug/netcoreapp2.2/OffersWebApi.csproj.CoreCompileInputs.cache
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/obj/Debug/netcoreapp2.2/OffersWebApi.RazorAssemblyInfo.cache
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/obj/Debug/netcoreapp2.2/OffersWebApi.RazorAssemblyInfo.cs
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/obj/Debug/netcoreapp2.2/OffersWebApi.AssemblyInfoInputs.cache
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/obj/Debug/netcoreapp2.2/OffersWebApi.AssemblyInfo.cs
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/obj/Debug/netcoreapp2.2/OffersWebApi.RazorTargetAssemblyInfo.cache
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/obj/Debug/netcoreapp2.2/OffersWebApi.dll
+/Users/damianruta/WORKSPACE/PROJECTS/IkanoIndustry/OffersWebApi/obj/Debug/netcoreapp2.2/OffersWebApi.pdb
