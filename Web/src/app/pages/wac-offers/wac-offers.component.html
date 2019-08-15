@@ -21,13 +21,13 @@
       </div>
       <div class="description">
 
-        <div class="offer_content">
+        <div class="offer_content" *ngFor="let item of jobOffers">
           <div class="offer_text">
-            Pracownik Produkcji - Rogoźno
+            {{item.title}}
           </div>
           <div class="buttons">
             <a class="btn"
-              href="https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5787c5954d0045498a10132380399d45">
+              href="{{item.linkToTheForm}}">
               <div class="text">
                 {{ 'wac_offers.content.button1' | translate }}
               </div>
@@ -36,7 +36,7 @@
               </div>
             </a>
             <a class="btn"
-              href="https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5787c5954d0045498a10132380399d45">
+              href="http://iiwapi.damianruta.pl/api/joboffers/GetOfferFile?offerId={{item.id}}">
               <div class="text">
                 {{ 'wac_offers.content.button2' | translate }}
               </div>
@@ -47,7 +47,7 @@
           </div>
         </div>
 
-        <div class="offer_content">
+        <!-- <div class="offer_content">
           <div class="offer_text">
             Operator w obszarze Montażu
           </div>
@@ -71,9 +71,9 @@
               </div>
             </a>
           </div>
-        </div>
+        </div> -->
 
-        <div class="offer_content">
+        <!-- <div class="offer_content">
           <div class="offer_text">
             Kierownik Działu Technicznego w Krajence
           </div>
@@ -97,7 +97,7 @@
               </div>
             </a>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </div>

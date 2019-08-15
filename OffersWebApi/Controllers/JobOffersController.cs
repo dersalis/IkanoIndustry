@@ -9,6 +9,7 @@ namespace OffersWebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class JobOffersController : ControllerBase
     {
         private IJobOffersService _joService;
@@ -21,7 +22,7 @@ namespace OffersWebApi.Controllers
 
         // api/joboffers/getactive
         [HttpGet("GetActive")]
-        [EnableCors("VulconPolicy")]
+        [EnableCors("IIPolicy")]
         public ActionResult<IEnumerable<JobOfferViewModel>> GetActive()
         {
             var offers = _joService.GetActive();
@@ -30,7 +31,7 @@ namespace OffersWebApi.Controllers
 
         // api/joboffers/GetOfferFile?offerId=1060
         [HttpGet("GetOfferFile")]
-        [EnableCors("VulconPolicy")]
+        [EnableCors("IIPolicy")]
         public FileResult GetOfferFile(int offerId)
         {
             var fileFromDb = _jofService.GetFileByOfferId(offerId);
