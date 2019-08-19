@@ -6,3 +6,10 @@ export interface IJobOffer {
   linkToTheForm: string;
   linkToFile: string;
 }
+
+export interface IOfferFromPhp {
+  Id: number;
+  Title: string;
+  LinkToTheForm: string;
+  FileId: number;
+}

@@ -21,7 +21,7 @@
       </div>
       <div class="description">
 
-        <div class="offer_content" *ngFor="let item of jobOffers">
+        <!-- <div class="offer_content" *ngFor="let item of jobOffers">
           <div class="offer_text">
             {{item.title}}
           </div>
@@ -45,59 +45,41 @@
               </div>
             </a>
           </div>
+        </div> -->
+
+        <div *ngIf="jobOffersFromPhp.length > 0" style="display: contents;">
+          <div class="offer_content" *ngFor="let item of jobOffersFromPhp">
+            <div class="offer_text">
+              {{item.Title}}
+            </div>
+            <div class="buttons">
+              <a class="btn"
+                href="{{item.LinkToTheForm}}">
+                <div class="text">
+                  {{ 'wac_offers.content.button1' | translate }}
+                </div>
+                <div class="icon">
+                  <i class="fas fa-angle-right"></i>
+                </div>
+              </a>
+              <a class="btn"
+                href="https://ikanoindustry.pl/offersapi/offerfile.php?oferta={{item.Id}}">
+                <div class="text">
+                  {{ 'wac_offers.content.button2' | translate }}
+                </div>
+                <div class="icon">
+                  <i class="fas fa-angle-right"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="jobOffersFromPhp.length > 0" style="display: contents;">
+          <span>
+            Aktualnie brak ofert
+          </span>
         </div>
 
-        <!-- <div class="offer_content">
-          <div class="offer_text">
-            Operator w obszarze Montażu
-          </div>
-          <div class="buttons">
-            <a class="btn"
-              href="https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5787c5954d0045498a10132380399d45">
-              <div class="text">
-                {{ 'wac_offers.content.button1' | translate }}
-              </div>
-              <div class="icon">
-                <i class="fas fa-angle-right"></i>
-              </div>
-            </a>
-            <a class="btn"
-              href="https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5787c5954d0045498a10132380399d45">
-              <div class="text">
-                {{ 'wac_offers.content.button2' | translate }}
-              </div>
-              <div class="icon">
-                <i class="fas fa-angle-right"></i>
-              </div>
-            </a>
-          </div>
-        </div> -->
-
-        <!-- <div class="offer_content">
-          <div class="offer_text">
-            Kierownik Działu Technicznego w Krajence
-          </div>
-          <div class="buttons">
-            <a class="btn"
-              href="https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5787c5954d0045498a10132380399d45">
-              <div class="text">
-                {{ 'wac_offers.content.button1' | translate }}
-              </div>
-              <div class="icon">
-                <i class="fas fa-angle-right"></i>
-              </div>
-            </a>
-            <a class="btn"
-              href="https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5787c5954d0045498a10132380399d45">
-              <div class="text">
-                {{ 'wac_offers.content.button2' | translate }}
-              </div>
-              <div class="icon">
-                <i class="fas fa-angle-right"></i>
-              </div>
-            </a>
-          </div>
-        </div> -->
 
       </div>
     </div>

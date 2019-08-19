@@ -1,3 +1,4 @@
+import { IOfferFromPhp } from './../../models/jobOffer';
 import { Component, OnInit } from '@angular/core';
 import { FacebookService, InitParams } from 'ngx-facebook';
 import { IJobOffer } from '../../models/jobOffer';
@@ -11,6 +12,7 @@ import { JoboffersService } from 'src/app/services/joboffers.service';
 export class WacOffersComponent implements OnInit {
 
   public jobOffers: IJobOffer[] = [];
+  public jobOffersFromPhp: IOfferFromPhp[] = [];
 
   constructor(private fb: FacebookService, private joboffersService: JoboffersService) {
     let initParams: InitParams = {
@@ -25,6 +27,12 @@ export class WacOffersComponent implements OnInit {
   ngOnInit() {
     this.joboffersService.getJobOffers().subscribe(response => {
       this.jobOffers = response;
+    });
+
+    this.joboffersService.getOffersFromPhp().subscribe(result => {
+      console.log('Z PHP:');
+      console.log(result);
+      this.jobOffersFromPhp = result;
     });
   }
 

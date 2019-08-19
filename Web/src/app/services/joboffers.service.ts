@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { IJobOffer } from '../models/jobOffer';
+import { IJobOffer, IOfferFromPhp } from '../models/jobOffer';
 
 @Injectable({
   providedIn: 'root'
@@ -18,8 +18,9 @@ export class JoboffersService {
     return this.httpClient.get<IJobOffer[]>(`${this.offersUrl}`);
   }
 
-  // Zwraca listę ofert pracy
-  // public getOfferFile(offerId: number): Observable<IJobOffer[]> {
-  //   return this.httpClient.get<IJobOffer[]>(`${this.fileUrl}offerId`);
-  // }
+
+  private phpOfersUrl: string = 'https://ikanoindustry.pl/offersapi/offers.php';
+  public getOffersFromPhp(): Observable<IOfferFromPhp[]> {
+    return this.httpClient.get<IOfferFromPhp[]>(`${this.phpOfersUrl}`);
+  }
 }

@@ -39,7 +39,8 @@ export class InformationClauseComponent implements OnInit {
 
     fb.init(initParams);
 
-    this.siteKey = '6LeC8q8UAAAAAAXkgfpR8N6e8lK4bIN6namQFofx';
+    // this.siteKey = '6LeC8q8UAAAAAAXkgfpR8N6e8lK4bIN6namQFofx';
+    this.siteKey = '6Ld-qbMUAAAAAFWSnawGKVcvUSr40YkKgqQi6K9W';
     this.getIP();
   }
 
@@ -80,5 +81,5 @@ export class InformationClauseComponent implements OnInit {
   reload(): void {
     this.captchaElem.reloadCaptcha();
   }
-  
+
 }
