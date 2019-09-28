@@ -152,7 +152,16 @@
       }
     }
   }
+
+  .cookieLaw {
+    .clComponent {
+      font-size: 14px;
+      font-family: Ikano, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+  }
 }
+
+
 
 @media (min-width: 1200px) {
   .content {

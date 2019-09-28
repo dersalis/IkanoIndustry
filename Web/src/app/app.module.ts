@@ -20,6 +20,8 @@ import { WacGeneralComponent } from './pages/wac-general/wac-general.component';
 import { WacOffersComponent } from './pages/wac-offers/wac-offers.component';
 import { WacCommandComponent } from './pages/wac-command/wac-command.component';
 import { NgxCaptchaModule } from 'ngx-captcha';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CookieLawModule } from 'angular2-cookie-law';
 
 @NgModule({
   declarations: [
@@ -50,6 +52,8 @@ import { NgxCaptchaModule } from 'ngx-captcha';
         deps: [HttpClient]
       }
     }),
+    BrowserAnimationsModule,
+    CookieLawModule,
   ],
   // providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   providers: [],

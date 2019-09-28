@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FacebookService, InitParams } from 'ngx-facebook';
 
 @Component({
@@ -7,6 +7,11 @@ import { FacebookService, InitParams } from 'ngx-facebook';
   styleUrls: ['./index.component.scss']
 })
 export class IndexComponent implements OnInit {
+
+  // CookieLaw
+  cookieLawSeen: boolean;
+  // @ViewChild('cookieLaw')
+  cookieLawEl: any;
 
   constructor(private fb: FacebookService) {
     let initParams: InitParams = {
@@ -19,6 +24,11 @@ export class IndexComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.cookieLawSeen = this.cookieLawEl.cookieLawSeen;
   }
 
+  // CookieLaw - dismiss
+  dismiss(): void {
+    this.cookieLawEl.dismiss();
+  }
 }
