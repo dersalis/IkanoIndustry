@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import { Component, OnInit, ViewChild } from '@angular/core';
-=======
-import { Component, OnInit, AfterContentInit } from '@angular/core';
->>>>>>> animacje
+import { Component, OnInit, AfterContentInit, ViewChild } from '@angular/core';
 import { FacebookService, InitParams } from 'ngx-facebook';
 import { trigger, state, style, animate, transition} from '@angular/animations';
 
@@ -61,15 +57,12 @@ export class IndexComponent implements OnInit, AfterContentInit {
   }
 
   ngOnInit() {
-<<<<<<< HEAD
     this.cookieLawSeen = this.cookieLawEl.cookieLawSeen;
-=======
     console.log('ngOnInit');
   }
 
   ngAfterContentInit() {
     console.log('ngAfterContentInit');
->>>>>>> animacje
   }
 
   // CookieLaw - dismiss
