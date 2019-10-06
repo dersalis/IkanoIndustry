@@ -1,10 +1,24 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { trigger, state, style, animate, transition} from '@angular/animations';
 
 @Component({
   selector: 'app-top-panel',
   templateUrl: './top-panel.component.html',
-  styleUrls: ['./top-panel.component.scss']
+  styleUrls: ['./top-panel.component.scss'],
+  animations: [
+    trigger('showTopNav', [
+      state('initial', style({
+        opacity: '0',
+        marginTop: '-35px'
+      })),
+      state('final', style({
+        opacity: '1',
+        marginTop: '10px'
+      })),
+      transition('*=>final', animate('1s')),
+    ]),
+  ]
 })
 export class TopPanelComponent implements OnInit {
 

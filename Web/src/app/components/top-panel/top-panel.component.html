@@ -1,7 +1,7 @@
 <div class="top_panel">
   <div class="container">
     <div class="top">
-      <div class="lang">
+      <div class="lang" [@showTopNav]="'final'" style="opacity: 0; margin-top: -35px">
         <div class="btn-round" data-title="Polski">
           <div class="inside pl" (click)="switchLanguage('pl')"></div>
         </div>
@@ -12,7 +12,7 @@
           <div class="inside mex"></div>
         </div> -->
       </div>
-      <div class="social">
+      <div class="social" [@showTopNav]="'final'" style="opacity: 0; margin-top: -35px">
         <a href="https://www.facebook.com/DendroPoland/" class="btn-round" data-title="Facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
