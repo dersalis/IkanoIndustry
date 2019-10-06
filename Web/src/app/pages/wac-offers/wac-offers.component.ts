@@ -10,6 +10,15 @@ import { trigger, state, style, animate, transition} from '@angular/animations';
   templateUrl: './wac-offers.component.html',
   styleUrls: ['./wac-offers.component.scss'],
   animations: [
+    trigger('showQuotationSection', [
+      state('initial', style({
+        opacity: '0'
+      })),
+      state('final', style({
+        opacity: '1'
+      })),
+      transition('*=>final', animate('0.5s ease-in')),
+    ]),
     trigger('showQuotation', [
       state('initial', style({
         opacity: '0'
@@ -17,7 +26,16 @@ import { trigger, state, style, animate, transition} from '@angular/animations';
       state('final', style({
         opacity: '1'
       })),
-      transition('*=>final', animate('2s')),
+      transition('*=>final', animate('2s 1s ease-in')),
+    ]),
+    trigger('showSection', [
+      state('initial', style({
+        opacity: '0'
+      })),
+      state('final', style({
+        opacity: '1'
+      })),
+      transition('*=>final', animate('2.5s ease-in')),
     ]),
   ]
 })

@@ -16,7 +16,7 @@ import { trigger, state, style, animate, transition} from '@angular/animations';
         opacity: '1',
         marginTop: '10px'
       })),
-      transition('*=>final', animate('1s')),
+      transition('*=>final', animate('1s ease-in')),
     ]),
   ]
 })
