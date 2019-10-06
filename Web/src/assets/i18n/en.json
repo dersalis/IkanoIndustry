@@ -210,5 +210,9 @@
       "button3": "Wyślij formularz",
       "content2": "Jeśli Twój Kandydat rozpocznie pracę w Ikano Industry skontaktujemy się z Tobą. "
     }
+  },
+  "cookieLaw": {
+    "line1": "Using this website you agree to the use of cookies that are installed on your device. We use them to adapt content to your preferences and interests. To learn more go to the ",
+    "line2": "information clause"
   }
 }
