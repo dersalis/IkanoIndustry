@@ -1,6 +1,6 @@
 <div class="content">
-  <div class="section_gray image">
-    <div class="quotation">
+  <div class="section_gray image" [@showQuotationSection]="'final'" style="opacity: 0">
+    <div class="quotation" [@showQuotation]="'final'" style="opacity: 0">
       <div class="content">
         <div class="title">
           {{ 'wac_general.quotation.title' | translate }}
@@ -13,7 +13,7 @@
   </div>
 
   <!-- Wartości -->
-  <div class="section_white">
+  <div class="section_white" [@showSection]="'final'" style="opacity: 0">
     <div class="box">
       <div class="left">
         <div class="header">
@@ -67,7 +67,7 @@
     </div>
   </div>
 
-  <div class="section_gray">
+  <div class="section_gray" [@showSection]="'final'" style="opacity: 0">
     <div class="box">
       <div class="left">
         <img src="../../../assets/hands.jpg" alt="Ikano Industry z lotu ptaka">
@@ -94,7 +94,7 @@
     </div>
   </div>
 
-  <div class="section_white">
+  <div class="section_white" [@showSection]="'final'" style="opacity: 0">
     <div class="box">
       <div class="left">
         <div class="header">
@@ -120,7 +120,7 @@
     </div>
   </div>
 
-  <div class="section_gray">
+  <div class="section_gray" [@showSection]="'final'" style="opacity: 0">
     <div class="box">
       <div class="left">
         <img src="../../../assets/bikeride.jpg" alt="Ikano Industry z lotu ptaka">
@@ -154,7 +154,7 @@
     </div>
   </div>
 
-  <div class="section_white">
+  <div class="section_white" [@showSection]="'final'" style="opacity: 0">
     <div class="box">
       <div class="left">
         <div class="header">

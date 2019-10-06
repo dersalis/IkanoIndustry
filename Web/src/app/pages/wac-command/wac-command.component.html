@@ -1,7 +1,7 @@
 <div class="content">
   <!-- Grafika -->
-  <div class="section section_image">
-    <div class="quotation">
+  <div class="section section_image" [@showQuotationSection]="'final'" style="opacity: 0">
+    <div class="quotation" [@showQuotation]="'final'" style="opacity: 0">
       <div class="content">
         <div class="title">
           {{ 'wac_command.quotation.title' | translate }}
@@ -14,7 +14,7 @@
   </div>
 
   <!-- Program poleceń -->
-  <div class="section section_white">
+  <div class="section section_white" [@showSection]="'final'" style="opacity: 0">
     <div class="box">
       <div class="header">
         {{ 'wac_command.content.title' | translate }}

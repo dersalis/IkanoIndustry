@@ -3,11 +3,41 @@ import { Component, OnInit } from '@angular/core';
 import { FacebookService, InitParams } from 'ngx-facebook';
 import { IJobOffer } from '../../models/jobOffer';
 import { JoboffersService } from 'src/app/services/joboffers.service';
+import { trigger, state, style, animate, transition} from '@angular/animations';
 
 @Component({
   selector: 'app-wac-offers',
   templateUrl: './wac-offers.component.html',
-  styleUrls: ['./wac-offers.component.scss']
+  styleUrls: ['./wac-offers.component.scss'],
+  animations: [
+    trigger('showQuotationSection', [
+      state('initial', style({
+        opacity: '0'
+      })),
+      state('final', style({
+        opacity: '1'
+      })),
+      transition('*=>final', animate('0.5s ease-in')),
+    ]),
+    trigger('showQuotation', [
+      state('initial', style({
+        opacity: '0'
+      })),
+      state('final', style({
+        opacity: '1'
+      })),
+      transition('*=>final', animate('2s 1s ease-in')),
+    ]),
+    trigger('showSection', [
+      state('initial', style({
+        opacity: '0'
+      })),
+      state('final', style({
+        opacity: '1'
+      })),
+      transition('*=>final', animate('2.5s ease-in')),
+    ]),
+  ]
 })
 export class WacOffersComponent implements OnInit {
 

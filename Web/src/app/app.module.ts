@@ -21,7 +21,10 @@ import { WacOffersComponent } from './pages/wac-offers/wac-offers.component';
 import { WacCommandComponent } from './pages/wac-command/wac-command.component';
 import { NgxCaptchaModule } from 'ngx-captcha';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+<<<<<<< HEAD
 import { CookieLawModule } from 'angular2-cookie-law';
+=======
+>>>>>>> animacje
 
 @NgModule({
   declarations: [
@@ -53,7 +56,10 @@ import { CookieLawModule } from 'angular2-cookie-law';
       }
     }),
     BrowserAnimationsModule,
+<<<<<<< HEAD
     CookieLawModule,
+=======
+>>>>>>> animacje
   ],
   // providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   providers: [],

@@ -1,11 +1,16 @@
 <div class="navigation">
   <div class="container">
     <div class="bottom">
+<<<<<<< HEAD
       <div class="logo">
         <a routerLink="/index" routerLinkActive="active"><img src="../../../assets/Logo180.png" alt="Ikano Industry"></a>
         <!-- <img src="../../../assets/Logo180.png" alt="Ikano Industry"> -->
+=======
+      <div class="logo" [@showLogo]="'final'" style="opacity: 0; margin-left: -130px">
+        <img src="../../../assets/Logo180.png" alt="">
+>>>>>>> animacje
       </div>
-      <div class="menu">
+      <div class="menu" [@showMenu]="'final'" style="opacity: 0; margin-bottom: -75px">
         <ul>
           <li><a routerLink="/index" routerLinkActive="active">{{ 'navigation.meet' | translate}}</a></li>
           <li><a routerLink="/career" routerLinkActive="active">{{ 'navigation.career' | translate}}</a></li>
