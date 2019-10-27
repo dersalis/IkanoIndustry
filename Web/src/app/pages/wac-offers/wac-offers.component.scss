@@ -38,7 +38,7 @@
           border-radius: 3px;
           padding: 20px;
           height: 200px;
-          transition: border .3s;
+          transition: border 0.3s;
 
           .offer_text {
             display: flex;
@@ -54,7 +54,8 @@
             justify-content: space-around;
           }
 
-          &:hover, &:active {
+          &:hover,
+          &:active {
             border: 1px solid $color_primary_red;
           }
         }
@@ -127,12 +128,12 @@
         }
         .description {
           font-size: 30px;
+
         }
       }
     }
   }
 }
-
 
 @media (max-width: 1200px) {
   .content {
@@ -147,7 +148,6 @@
     }
   }
 }
-
 
 @media only screen and (min-width: 1200px) {
   .content {

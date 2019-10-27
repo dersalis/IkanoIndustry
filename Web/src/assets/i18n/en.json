@@ -6,8 +6,8 @@
   },
   "meetPage": {
     "quotation": {
-      "title": "Nasza wizja",
-      "content": "Tworzyć możliwości lepszego życia"
+      "title": "Our vision",
+      "content": "To create possibilities for better living"
     },
     "modern_factory": {
       "title": "Where we come from",
@@ -32,7 +32,7 @@
       "button": "Work and career"
     },
     "sustainable": {
-      "title": "Sustainable development",
+      "title": "Sustaiability",
       "content1": "We care about providing products of the highest quality, that's why in everyday work we use the latest technologies and we constantly improve production processes.",
       "content2": "At Ikano, we are in the midst of a great challenge.",
       "content3": "As part of our long-term strategy we have committed to integrate sustainability in everything we do. For us, this means that our promise, on fair terms, needs to extend beyond our relations with customers and suppliers. We have to make sure that what we do is also fair to the people, the society and the planet we live on.",
@@ -138,8 +138,8 @@
   },
   "wac_general": {
     "quotation": {
-      "title": "Droga do rozwoju",
-      "content": "\"Konkurenci mogą skopiować każdy element Twojej działalności, ale nie firmowego ducha. To właśnie duch jest tym, co odróżnia firmę od innych.\" Ingvar Kamprad"
+      "title": "Road to development",
+      "content": "\"The competitors can copy every part and every aspect of your business, but not the company spirit. This is what differentiates one company from another.\" Ingvar Kamprad"
     },
     "values": {
       "title": "Our values",

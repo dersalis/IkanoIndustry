@@ -172,6 +172,42 @@
   }
 }
 
+// .section_white{
+//   .box{
+//     .left{
+//       .description{
+//         .counton {
+//           .coel {
+//             .coleft {
+//               height: 34px;
+//               width: 34px;
+//             }
+//             .coright {
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+.counton {
+  .coel {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    .coleft {
+      height: 34px;
+      width: 34px;
+      margin-right: 10px;
+    }
+    .coright {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
 @media (min-width: 1200px) {
   .content {
     .section_gray,
