@@ -68,7 +68,7 @@
       "content1": "Powołaliśmy Inspektora Ochrony Danych - Ewa Jóźwiak. W kwestiach związanych z ochroną Twoich danych, możesz się z nim kontaktować:",
       "content2": "Możesz skontaktować się z nami pocztą pod powyższym adresem lub korzystając z niżej podanych danych Inspektora Ochrony Danych.",
       "content_list1": "pod adresem e-mail:",
-      "content_list2": "pod numerem telefonu 661 614 003",
+      "content_list2": "pod numerem telefonu",
       "content_list3": "wypełniając formularz",
       "content3": "Wiadomość do IOD:",
       "content4": "Zostaw kontakt do siebie:",
@@ -133,6 +133,10 @@
       "content9_3": "Prezes Urzędu Ochrony Danych Osobowych",
       "content9_4": "ul. Stawki 2",
       "content9_5": "00-193 Warszawa"
+    },
+    "device": {
+      "title": "Urządzenia w procesach",
+      "content": "Spółka, na podstawie Zezwolenia, wydanego zgodnie z obowiązującymi przepisami przez Prezesa Państwowej Agencji Atomistyki, stosuje w procesach technologicznych urządzenia wytwarzające promieniowanie rentgenowskie. Działalność ta nie stanowi najmniejszego zagrożenia dla zdrowia ludności i środowiska."
     }
   },
   "wac_general": {
