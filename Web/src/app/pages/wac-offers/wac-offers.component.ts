@@ -55,15 +55,21 @@ export class WacOffersComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.joboffersService.getJobOffers().subscribe(response => {
-      this.jobOffers = response;
-    });
+    // this.joboffersService.getJobOffers().subscribe(response => {
+    //   this.jobOffers = response;
+    // });
 
-    this.joboffersService.getOffersFromPhp().subscribe(result => {
+    this.joboffersService.getOffersFromPhp().subscribe(
+      result => {
       console.log('Z PHP:');
       console.log(result);
       this.jobOffersFromPhp = result;
-    });
+      },
+      error => {
+        console.log(error);
+      }
+    );
+
   }
 
 }
