@@ -2,11 +2,21 @@
     
     $idFile = $_GET["oferta"];
     $serverName = "serwer1351051.home.pl";
-    $user = "13843853_ikano";
+    $db = "13843853_hrka";
+    // $user = "13843853_ikano";
+    $user = "13843853_hrka";
     $pass = "-GLdmR4IjuNl";
         
-    $pdoConnToDb = new PDO("dblib:Server=serwer1351051.home.pl;Database=$user", "$user", "$pass");
+    // $pdoConnToDb = new PDO("dblib:Server=serwer1351051.home.pl;Database=$user", "$user", "$pass");
     
+    // mySql
+    $pdoConnToDb = new PDO("mysql:host=$serverName;dbname=$db", "$user", "$pass", [
+		PDO::ATTR_EMULATE_PREPARES => false, 
+		PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+    	PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
+  		]);
+    //$pdoConnToDb->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
     if( $pdoConnToDb === false)
     {
         echo "Brak połączenia z DB";
