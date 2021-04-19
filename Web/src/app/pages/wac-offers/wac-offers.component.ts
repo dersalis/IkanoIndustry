@@ -58,10 +58,9 @@ export class WacOffersComponent implements OnInit {
     // this.joboffersService.getJobOffers().subscribe(response => {
     //   this.jobOffers = response;
     // });
-
+    console.log('Z PHP:');
     this.joboffersService.getOffersFromPhp().subscribe(
       result => {
-      console.log('Z PHP:');
       console.log(result);
       this.jobOffersFromPhp = result;
       },

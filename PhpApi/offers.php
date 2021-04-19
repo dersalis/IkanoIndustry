@@ -3,22 +3,20 @@
     $isEmpty = true;
     
     $serverName = "serwer1351051.home.pl";
-    $db = "13843853_ikano";
-    // $db = "13843853_hrka";
-    $user = "13843853_ikano";
-    // $user = "13843853_hrka";
+    // $db = "13843853_ikano";
+    $db = "13843853_hrka";
+    // $user = "13843853_ikano";
+    $user = "13843853_hrka";
     $pass = "-GLdmR4IjuNl";
 
-    // SqlServer
-    //$pdoConnToDb = new PDO("dblib:version=7.0;charset=UTF-8;Server=serwer1351051.home.pl;Database=$user", "$user", "$pass");
-    //$pdoConnToDb->setAttribute(PDO::SQLSRV_ENCODING_SYSTEM);
+    // MySQL connection
+    // $mysqlConn = "mysql:host=$serverName;port=5432;dbname=$db;user=$user;password=$pass";
+
+    // PostgreSQL connection
+    $pgsqlConn = "pgsql:host=$serverName;port=5432;dbname=$db;user=$user;password=$pass";
 
     // mySql
-    $pdoConnToDb = new PDO("mysql:host=$serverName;dbname=$db", "$user", "$pass", [
-		PDO::ATTR_EMULATE_PREPARES => false, 
-		PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-    	PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
-  		]);
+    $pdoConnToDb = new PDO($pgsqlConn);
     // $pdoConnToDb->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     if( $pdoConnToDb === false)
@@ -29,9 +27,9 @@
 
     $date = date("Y-m-d");
 
-    $sqlGetJobOffers = "SELECT jo.Id, jo.Title, jo.LinkToTheForm , jof.Id as FileId FROM JobOffers jo "
-            ." LEFT JOIN JobOffersFiles jof on jof.JobOfferId = jo.Id"
-            ." WHERE jo.Active=1 AND CAST(jo.DateTo AS DATE)>='".$date."' AND CAST(jo.DateFrom AS DATE)<='".$date."'";
+    $sqlGetJobOffers = "SELECT jo.Id, jo.Title, jo.LinkToTheForm , jof.Id as FileId FROM joboffers jo "
+            ." LEFT JOIN joboffersfiles jof on jof.JobOfferId = jo.Id"
+            ." WHERE jo.Active=true AND CAST(jo.DateTo AS DATE)>='".$date."' AND CAST(jo.DateFrom AS DATE)<='".$date."'";
 
     $queryToDb = $pdoConnToDb->query($sqlGetJobOffers);
     $queryToDb->execute(); 
