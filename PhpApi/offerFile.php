@@ -16,7 +16,8 @@
 
     // mySql
     $pdoConnToDb = new PDO($pgsqlConn);
-    // $pdoConnToDb->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdoConnToDb->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdoConnToDb->query("SET bytea_output=escape");
 
     if( $pdoConnToDb === false)
     {
@@ -24,20 +25,21 @@
         die();
     }
     
+    $pdoConnToDb->beginTransaction();
     $queryToDb = $pdoConnToDb->prepare("SELECT filecontent FROM joboffersfiles WHERE jobofferid=".$idFile);
-    $queryToDb->execute();  
-    $result = $queryToDb->fetch(PDO::FETCH_OBJ);
+    $queryToDb->execute(); 
+
+    $result = $queryToDb->fetch(PDO::FETCH_ASSOC);
     
     if ($result === false){
         echo "Nie znaleziono oferty o id ".$idFile;
         die();
     }
     
-    $content = trim($result->FileContent);
-    
+
     header('Content-type: application/pdf',true,200);
     header("Content-Disposition: attachment; filename=OfertaIkanoIndustry_".$idFile.".pdf");
     header('Cache-Control: public');
-    echo $content;
+    fpassthru($result['filecontent']);
 
     ?>
