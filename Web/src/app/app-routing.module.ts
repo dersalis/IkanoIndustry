@@ -1,3 +1,4 @@
+import { RegulationsComponent } from './pages/regulations/regulations.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { IndexComponent } from './pages/index/index.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
     ]
   },
   { path: 'information_clause', component: InformationClauseComponent},
+  { path: 'regulations', component: RegulationsComponent},
   { path: '', redirectTo: 'index', pathMatch: 'full'},
   { path: '**', redirectTo: 'index', pathMatch: 'full'},
   // { path: '**', component: PageNotFoundComponent},
@@ -27,7 +29,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes)
-    //RouterModule.forChild(routes)
+    // RouterModule.forChild(routes)
   ],
   exports: [RouterModule]
 })

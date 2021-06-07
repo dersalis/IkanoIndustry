@@ -2,7 +2,8 @@
   "navigation": {
     "meet": "Poznajmy się",
     "career": "Praca i kariera",
-    "information_clausule": "Klauzula informacyjna"
+    "information_clausule": "Klauzula informacyjna",
+    "regulations": "Informacje prawne"
   },
   "meetPage": {
     "quotation": {
@@ -217,5 +218,9 @@
   "cookieLaw": {
     "line1": "Polityka prywatności i ciasteczek: Korzystając ze strony zgadzasz się na używanie plików cookie, które są instalowane na Twoim urządzeniu. Wykorzystujemy je w celu aby dostosować treści do Twoich preferencji i zainteresowań. Więcej o tym oraz o możliwościach zmiany ich ustawień dowiesz się w ",
     "line2": "klauzuli informacyjnej"
+  },
+  "regulations": {
+    "personal_data": "Informacja o przetwarzaniu danych osobowych",
+    "attention": "Attention"
   }
 }

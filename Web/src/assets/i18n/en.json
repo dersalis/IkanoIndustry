@@ -2,7 +2,8 @@
   "navigation": {
     "meet": "About us",
     "career": "Working at Ikano",
-    "information_clausule": "Information clause"
+    "information_clausule": "Information clause",
+    "regulations": "Regulations"
   },
   "meetPage": {
     "quotation": {
@@ -218,5 +219,9 @@
   "cookieLaw": {
     "line1": "Using this website you agree to the use of cookies that are installed on your device. We use them to adapt content to your preferences and interests. To learn more go to the ",
     "line2": "information clause"
+  },
+  "regulations": {
+    "personal_data": "Information on the processing of personal data",
+    "attention": "Attention"
   }
 }

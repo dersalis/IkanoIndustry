@@ -22,6 +22,7 @@ import { WacCommandComponent } from './pages/wac-command/wac-command.component';
 import { NgxCaptchaModule } from 'ngx-captcha';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CookieLawModule } from 'angular2-cookie-law';
+import { RegulationsComponent } from './pages/regulations/regulations.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { CookieLawModule } from 'angular2-cookie-law';
     PageNotFoundComponent,
     WacGeneralComponent,
     WacOffersComponent,
-    WacCommandComponent
+    WacCommandComponent,
+    RegulationsComponent
   ],
   imports: [
     BrowserModule,
