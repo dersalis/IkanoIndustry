@@ -222,6 +222,7 @@
   },
   "regulations": {
     "personal_data": "Information on the processing of personal data",
-    "attention": "Attention"
+    "attention": "Attention",
+    "tax_strategy": "Tax strategy"
   }
 }

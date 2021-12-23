@@ -221,6 +221,7 @@
   },
   "regulations": {
     "personal_data": "Informacja o przetwarzaniu danych osobowych",
-    "attention": "Uwaga"
+    "attention": "Uwaga",
+    "tax_strategy": "Strategia podatkowa"
   }
 }

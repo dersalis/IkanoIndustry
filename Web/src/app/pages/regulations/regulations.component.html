@@ -107,6 +107,27 @@
         </div>
     </div>
 
+    <div class="section section_white" [@showSection]="'final'" style="opacity: 0">
+      <div class="box">
+          <div class="header">
+              {{ 'regulations.tax_strategy' | translate }}
+          </div>
+          <div class="description">
+            <p>
+              Strategia podatkowa 2020
+            </p>
+            <a class="btn" href="../../../assets/files/strategia podatkowa_2020.pdf">
+              <div class="text">
+                {{ 'page_information.security_measures.button' | translate }}
+              </div>
+              <div class="icon">
+                <i class="fas fa-download"></i>
+              </div>
+            </a>
+          </div>
+      </div>
+  </div>
+
     <!-- Stopka -->
     <div class="footer">
         <app-footer></app-footer>
